@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球菠萝汁鸡尾酒图鉴 - 100个国家精选</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-cocktail"></i>
+                <h1>🍍 全球菠萝汁鸡尾酒图鉴 🌎</h1>
+            </div>
+            <p class="subtitle">探索100个国家 • 7种基酒分类 • 菠萝汁鸡尾酒精选</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索国家或鸡尾酒...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="all">所有基酒</option>
+                    <option value="朗姆酒">朗姆酒</option>
+                    <option value="龙舌兰酒">龙舌兰酒</option>
+                    <option value="伏特加">伏特加</option>
+                    <option value="金酒">金酒</option>
+                    <option value="威士忌">威士忌</option>
+                    <option value="白兰地">白兰地</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fas fa-globe"></i>
+                <h3>100</h3>
+                <p>国家地区</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-wine-bottle"></i>
+                <h3>7</h3>
+                <p>基酒分类</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-glass-whiskey"></i>
+                <h3>100</h3>
+                <p>鸡尾酒配方</p>
+            </div>
+        </div>
+
+        <main class="cocktail-grid" id="cocktailContainer">
+            <!-- 鸡尾酒卡片将通过JavaScript动态加载 -->
+        </main>
+
+        <footer>
+            <p>© 2024 菠萝汁鸡尾酒图鉴 | 数据自动生成 | 仅供学习参考</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

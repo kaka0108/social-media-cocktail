@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菠萝汁鸡尾酒大全 | 100种精选配方</title>
+
+    <!-- 内联CSS - 加快加载速度 -->
+    <style>
+        /* 重置样式 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* 基础样式 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* 导航栏 */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #e67e22;
+        }
+
+        .logo i {
+            font-size: 1.5rem;
+        }
+
+        .nav-stats {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        /* 主内容 */
+        .main-content {
+            background: white;
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            min-height: 500px;
+        }
+
+        /* 搜索区域 */
+        .search-section {
+            margin-bottom: 30px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #f39c12;
+        }
+
+        .search-box button {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .search-box button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* 分类标签 */
+        .filter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .filter-tag {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .filter-tag:hover {
+            border-color: #f39c12;
+            background: #fff8e1;
+        }
+
+        .filter-tag.active {
+            background: #f39c12;
+            border-color: #f39c12;
+            color: white;
+        }
+
+        /* 鸡尾酒网格 */
+        .cocktails-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cocktail-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        .cocktail-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .cocktail-image {
+            height: 160px;
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .cocktail-content {
+            padding: 15px;
+        }
+
+        .cocktail-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+
+        .cocktail-title h3 {
+            font-size: 1.1rem;
+            margin-bottom: 3px;
+            color: #2c3e50;
+        }
+
+        .cocktail-title .en-name {
+            color: #666;
+            font-size: 0.8rem;
+        }
+
+        .cocktail-rating {
+            color: #f39c12;
+            font-weight: bold;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .cocktail-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: #666;
+            font-size: 0.8rem;
+        }
+
+        .cocktail-meta span {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .cocktail-description {
+            color: #666;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .cocktail-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .cocktail-tag {
+            background: #f0f7ff;
+            color: #3498db;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+        }
+
+        /* 分页 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        .page-btn {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .page-btn:hover {
+            border-color: #f39c12;
+        }
+
+        .page-btn.active {
+            background: #f39c12;
+            border-color: #f39c12;
+            color: white;
+        }
+
+        /* 加载状态 */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            grid-column: 1 / -1;
+        }
+
+        .loading i {
+            font-size: 2.5rem;
+            color: #f39c12;
+            margin-bottom: 15px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .cocktails-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 0 10px;
+            }
+
+            .main-content {
+                padding: 15px;
+                margin: 10px auto;
+            }
+        }
+    </style>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-cocktail"></i>
+                <span>菠萝鸡尾酒大全</span>
+            </div>
+            <div class="nav-stats">
+                <i class="fas fa-wine-glass-alt"></i>
+                <span id="totalCount">100</span> 配方
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="container">
+        <div class="main-content">
+            <!-- 搜索区域 -->
+            <section class="search-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索鸡尾酒名称或配料...">
+                    <button id="searchBtn"><i class="fas fa-search"></i> 搜索</button>
+                </div>
+                <div class="filter-tags" id="filterTags">
+                    <button class="filter-tag active" data-category="">全部</button>
+                    <!-- 分类将通过JavaScript动态加载 -->
+                </div>
+            </section>
+
+            <!-- 鸡尾酒展示 -->
+            <section>
+                <div id="cocktailsContainer" class="cocktails-grid">
+                    <!-- 初始加载状态 -->
+                    <div class="loading">
+                        <i class="fas fa-cocktail fa-spin"></i>
+                        <p>加载鸡尾酒中...</p>
+                    </div>
+                </div>
+
+                <div class="pagination" id="pagination">
+                    <!-- 分页按钮将通过JavaScript动态生成 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 内联JavaScript -->
+    <script>
+        class FastCocktailApp {
+            constructor() {
+                this.currentPage = 1;
+                this.perPage = 12;
+                this.currentCategory = '';
+                this.searchKeyword = '';
+                this.isLoading = false;
+                this.debounceTimer = null;
+
+                console.log('应用初始化...');
+                this.init();
+            }
+
+            init() {
+                this.bindEvents();
+                this.loadCategories();
+                this.loadCocktails();
+            }
+
+            bindEvents() {
+                // 搜索按钮
+                const searchBtn = document.getElementById('searchBtn');
+                const searchInput = document.getElementById('searchInput');
+
+                searchBtn.addEventListener('click', () => {
+                    this.handleSearch();
+                });
+
+                searchInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.handleSearch();
+                    }
+                });
+
+                // 防抖搜索
+                searchInput.addEventListener('input', (e) => {
+                    clearTimeout(this.debounceTimer);
+                    this.debounceTimer = setTimeout(() => {
+                        this.handleSearch();
+                    }, 500);
+                });
+            }
+
+            async loadCategories() {
+                try {
+                    console.log('加载分类...');
+                    const response = await fetch('/api/categories');
+                    const data = await response.json();
+
+                    if (data.success) {
+                        this.renderCategories(data.data);
+                    }
+                } catch (error) {
+                    console.error('加载分类失败:', error);
+                }
+            }
+
+            renderCategories(categories) {
+                const container = document.getElementById('filterTags');
+                if (!container) return;
+
+                categories.forEach(category => {
+                    const button = document.createElement('button');
+                    button.className = 'filter-tag';
+                    button.textContent = category;
+                    button.dataset.category = category;
+
+                    button.addEventListener('click', () => {
+                        // 更新活动状态
+                        document.querySelectorAll('.filter-tag').forEach(tag => {
+                            tag.classList.remove('active');
+                        });
+                        button.classList.add('active');
+
+                        this.currentCategory = category;
+                        this.currentPage = 1;
+                        this.loadCocktails();
+                    });
+
+                    container.appendChild(button);
+                });
+
+                console.log(`分类加载完成: ${categories.length} 个`);
+            }
+
+            async loadCocktails() {
+                if (this.isLoading) return;
+
+                this.isLoading = true;
+                this.showLoading();
+
+                try {
+                    console.log(`加载鸡尾酒: 第${this.currentPage}页, 分类: ${this.currentCategory}, 搜索: ${this.searchKeyword}`);
+
+                    const params = new URLSearchParams({
+                        page: this.currentPage,
+                        per_page: this.perPage,
+                        category: this.currentCategory,
+                        keyword: this.searchKeyword,
+                        _t: Date.now()  // 防止缓存
+                    });
+
+                    const startTime = Date.now();
+                    const response = await fetch(`/api/cocktails?${params}`);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP错误: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    const loadTime = Date.now() - startTime;
+
+                    console.log(`API响应时间: ${loadTime}ms, 数据量: ${data.data?.length || 0}`);
+
+                    if (data.success) {
+                        // 更新总数
+                        const totalCount = document.getElementById('totalCount');
+                        if (totalCount) {
+                            totalCount.textContent = data.total || '100';
+                        }
+
+                        this.renderCocktails(data.data);
+                        this.renderPagination(data);
+                    } else {
+                        this.showError(data.message || '加载失败');
+                    }
+                } catch (error) {
+                    console.error('加载鸡尾酒失败:', error);
+                    this.showError('网络请求失败，请检查连接');
+                } finally {
+                    this.isLoading = false;
+                }
+            }
+
+            renderCocktails(cocktails) {
+                const container = document.getElementById('cocktailsContainer');
+                if (!container) return;
+
+                if (!cocktails || cocktails.length === 0) {
+                    container.innerHTML = `
+                        <div style="grid-column: 1/-1; text-align: center; padding: 40px;">
+                            <i class="fas fa-glass-cheers" style="font-size: 3rem; color: #f39c12;"></i>
+                            <h3 style="margin: 15px 0 10px;">未找到匹配的鸡尾酒</h3>
+                            <p style="color: #666;">尝试其他搜索词或分类</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // 按评分排序
+                cocktails.sort((a, b) => b.rating - a.rating);
+
+                const html = cocktails.map(cocktail => `
+                    <div class="cocktail-card" data-id="${cocktail.id}">
+                        <div class="cocktail-image">
+                            <i class="fas fa-cocktail"></i>
+                            <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 3px 10px; border-radius: 10px; font-size: 0.8rem;">
+                                ${cocktail.category}
+                            </div>
+                        </div>
+                        <div class="cocktail-content">
+                            <div class="cocktail-header">
+                                <div class="cocktail-title">
+                                    <h3>${this.escapeHtml(cocktail.name_zh)}</h3>
+                                    <div class="en-name">${this.escapeHtml(cocktail.name)}</div>
+                                </div>
+                                <div class="cocktail-rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>${cocktail.rating}</span>
+                                </div>
+                            </div>
+
+                            <div class="cocktail-meta">
+                                <span><i class="fas fa-clock"></i> ${cocktail.prep_time}分钟</span>
+                                <span><i class="fas fa-wine-glass-alt"></i> ${cocktail.alcohol_level}%</span>
+                                <span><i class="fas fa-fire"></i> ${cocktail.calories}卡</span>
+                            </div>
+
+                            <p class="cocktail-description">${this.escapeHtml(cocktail.description)}</p>
+
+                            <div class="cocktail-tags">
+                                ${(cocktail.flavor_profile || []).map(flavor => 
+                                    `<span class="cocktail-tag">${this.escapeHtml(flavor)}</span>`
+                                ).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+
+                container.innerHTML = html;
+
+                // 添加点击事件
+                container.querySelectorAll('.cocktail-card').forEach(card => {
+                    card.addEventListener('click', (e) => {
+                        const id = card.dataset.id;
+                        this.showCocktailDetail(id);
+                    });
+                });
+
+                console.log(`渲染完成: ${cocktails.length} 个鸡尾酒`);
+            }
+
+            renderPagination(data) {
+                const pagination = document.getElementById('pagination');
+                if (!pagination) return;
+
+                if (!data.total_pages || data.total_pages <= 1) {
+                    pagination.innerHTML = '';
+                    return;
+                }
+
+                let html = '';
+
+                // 上一页
+                if (this.currentPage > 1) {
+                    html += `<button class="page-btn" data-page="${this.currentPage - 1}">
+                                <i class="fas fa-chevron-left"></i>
+                             </button>`;
+                }
+
+                // 页码
+                const startPage = Math.max(1, this.currentPage - 2);
+                const endPage = Math.min(data.total_pages, startPage + 4);
+
+                for (let i = startPage; i <= endPage; i++) {
+                    html += `<button class="page-btn ${i === this.currentPage ? 'active' : ''}" 
+                                 data-page="${i}">${i}</button>`;
+                }
+
+                // 下一页
+                if (this.currentPage < data.total_pages) {
+                    html += `<button class="page-btn" data-page="${this.currentPage + 1}">
+                                <i class="fas fa-chevron-right"></i>
+                             </button>`;
+                }
+
+                pagination.innerHTML = html;
+
+                // 绑定分页事件
+                pagination.querySelectorAll('.page-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        this.currentPage = parseInt(btn.dataset.page);
+                        this.loadCocktails();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                });
+            }
+
+            showLoading() {
+                const container = document.getElementById('cocktailsContainer');
+                if (!container) return;
+
+                container.innerHTML = `
+                    <div class="loading">
+                        <i class="fas fa-cocktail fa-spin"></i>
+                        <p>加载鸡尾酒中...</p>
+                    </div>
+                `;
+            }
+
+            showError(message) {
+                const container = document.getElementById('cocktailsContainer');
+                if (!container) return;
+
+                container.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 40px;">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: #e74c3c;"></i>
+                        <h3 style="margin: 15px 0 10px;">加载失败</h3>
+                        <p style="color: #666; margin-bottom: 20px;">${message}</p>
+                        <button onclick="window.location.reload()" style="background: #f39c12; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                            重新加载
+                        </button>
+                    </div>
+                `;
+            }
+
+            handleSearch() {
+                const input = document.getElementById('searchInput');
+                this.searchKeyword = input.value.trim();
+                this.currentPage = 1;
+                this.loadCocktails();
+            }
+
+            async showCocktailDetail(id) {
+                try {
+                    const response = await fetch(`/api/cocktail/${id}`);
+                    const data = await response.json();
+
+                    if (data.success) {
+                        this.showDetailModal(data.data);
+                    }
+                } catch (error) {
+                    console.error('加载详情失败:', error);
+                    alert('加载详情失败');
+                }
+            }
+
+            showDetailModal(cocktail) {
+                // 创建模态框
+                const modal = document.createElement('div');
+                modal.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,0,0,0.8);
+                    z-index: 2000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 20px;
+                `;
+
+                modal.innerHTML = `
+                    <div style="background: white; border-radius: 15px; max-width: 600px; width: 100%; max-height: 90vh; overflow-y: auto; position: relative;">
+                        <button id="closeModal" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 2rem; cursor: pointer; color: #666;">&times;</button>
+                        <div style="padding: 30px;">
+                            <div style="background: linear-gradient(45deg, #f39c12, #e67e22); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                                <i class="fas fa-cocktail" style="color: white; font-size: 4rem;"></i>
+                            </div>
+
+                            <h2 style="font-size: 1.8rem; margin-bottom: 10px; color: #2c3e50;">
+                                ${this.escapeHtml(cocktail.name_zh)}
+                            </h2>
+                            <p style="color: #666; margin-bottom: 20px;">${this.escapeHtml(cocktail.name)}</p>
+
+                            <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+                                <span style="background: #f39c12; color: white; padding: 6px 12px; border-radius: 15px;">
+                                    ${cocktail.category}
+                                </span>
+                                <span style="background: #3498db; color: white; padding: 6px 12px; border-radius: 15px;">
+                                    ${cocktail.difficulty}
+                                </span>
+                            </div>
+
+                            <p style="margin-bottom: 25px; line-height: 1.6;">${this.escapeHtml(cocktail.description)}</p>
+
+                            <h3 style="margin-bottom: 10px; color: #2c3e50;">
+                                <i class="fas fa-list-ul"></i> 配料
+                            </h3>
+                            <div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                                ${(cocktail.ingredients || []).map(ing => `
+                                    <div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;">
+                                        <span>${this.escapeHtml(ing.name)}</span>
+                                        <span style="color: #f39c12; font-weight: bold;">${ing.amount}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+
+                            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
+                                    <div style="color: #666; font-size: 0.9rem;">准备时间</div>
+                                    <div style="font-weight: bold; color: #2c3e50;">${cocktail.prep_time} 分钟</div>
+                                </div>
+
+                                <div style="background: #f8f9fa; padding: 15px; border-radius: 8px;">
+                                    <div style="color: #666; font-size: 0.9rem;">评分</div>
+                                    <div style="font-weight: bold; color: #2c3e50;">${cocktail.rating}/5.0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                document.body.appendChild(modal);
+
+                // 关闭按钮事件
+                modal.querySelector('#closeModal').addEventListener('click', () => {
+                    document.body.removeChild(modal);
+                });
+
+                // 点击外部关闭
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        document.body.removeChild(modal);
+                    }
+                });
+            }
+
+            escapeHtml(text) {
+                if (!text) return '';
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+        }
+
+        // 页面加载完成后初始化应用
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM加载完成，初始化应用...');
+            window.app = new FastCocktailApp();
+        });
+    </script>
+</body>
+</html>

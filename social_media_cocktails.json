@@ -1,0 +1,694 @@
+{
+  "metadata": {
+    "total_cocktails": 10,
+    "sources": [
+      "小红书",
+      "抖音"
+    ],
+    "collection_date": "2026-01-18 23:02:21",
+    "image_search_queries": [
+      "彩虹菠萝鸡尾酒 抖音",
+      "菠萝冰沙鸡尾酒 鸡尾酒",
+      "抖音 彩虹菠萝鸡尾酒 教程",
+      "夏日菠萝莫吉托 笔记图片",
+      "彩虹菠萝鸡尾酒 鸡尾酒",
+      "Pineapple Bubble Cocktail cocktail",
+      "菠萝马提尼 配方",
+      "彩虹菠萝鸡尾酒 配方",
+      "热带菠萝宾治 菠萝汁",
+      "热带菠萝宾治 橙汁",
+      "菠萝马提尼 笔记图片",
+      "烧烤配菠萝啤酒 制作",
+      "抖音特调菠萝饮 雪碧",
+      "彩虹菠萝鸡尾酒 菠萝汁",
+      "抖音 菠萝冰沙鸡尾酒 教程",
+      "Summer Pineapple Mojito cocktail",
+      "抖音特调菠萝饮 视频截图",
+      "小红书 菠萝得其利 鸡尾酒",
+      "热带菠萝宾治 鸡尾酒",
+      "抖音 抖音特调菠萝饮 教程",
+      "菠萝椰林飘香 制作",
+      "热带菠萝宾治 小红书",
+      "夏日菠萝莫吉托 白朗姆酒",
+      "夏日菠萝莫吉托 小红书",
+      "菠萝得其利 小红书",
+      "菠萝冰沙鸡尾酒 冷冻菠萝块",
+      "彩虹菠萝鸡尾酒 视频截图",
+      "热带菠萝宾治 笔记图片",
+      "菠萝泡泡鸡尾酒 制作",
+      "小红书 夏日菠萝莫吉托 鸡尾酒",
+      "菠萝得其利 配方",
+      "菠萝椰林飘香 笔记图片",
+      "Douyin Special Pineapple Drink cocktail",
+      "烧烤配菠萝啤酒 抖音",
+      "夏日菠萝莫吉托 配方",
+      "菠萝泡泡鸡尾酒 抖音",
+      "小红书 菠萝马提尼 鸡尾酒",
+      "菠萝泡泡鸡尾酒 配方",
+      "Tropical Pineapple Punch cocktail",
+      "菠萝冰沙鸡尾酒 制作",
+      "菠萝马提尼 菠萝汁",
+      "菠萝椰林飘香 白朗姆酒",
+      "菠萝得其利 制作",
+      "夏日菠萝莫吉托 制作",
+      "菠萝泡泡鸡尾酒 视频截图",
+      "菠萝得其利 新鲜菠萝汁",
+      "Rainbow Pineapple Cocktail cocktail",
+      "菠萝得其利 白朗姆酒",
+      "抖音特调菠萝饮 制作",
+      "菠萝椰林飘香 鸡尾酒",
+      "抖音特调菠萝饮 鸡尾酒",
+      "菠萝得其利 鸡尾酒",
+      "热带菠萝宾治 制作",
+      "菠萝得其利 笔记图片",
+      "菠萝泡泡鸡尾酒 朗姆酒",
+      "BBQ Pineapple Beer Cocktail cocktail",
+      "彩虹菠萝鸡尾酒 蓝橙利口酒",
+      "抖音特调菠萝饮 菠萝汁",
+      "菠萝泡泡鸡尾酒 菠萝汁",
+      "热带菠萝宾治 配方",
+      "菠萝马提尼 小红书",
+      "彩虹菠萝鸡尾酒 制作",
+      "抖音 烧烤配菠萝啤酒 教程",
+      "烧烤配菠萝啤酒 配方",
+      "抖音特调菠萝饮 抖音",
+      "夏日菠萝莫吉托 鸡尾酒",
+      "夏日菠萝莫吉托 新鲜菠萝汁",
+      "菠萝椰林飘香 小红书",
+      "小红书 热带菠萝宾治 鸡尾酒",
+      "菠萝冰沙鸡尾酒 抖音",
+      "烧烤配菠萝啤酒 视频截图",
+      "烧烤配菠萝啤酒 鸡尾酒",
+      "抖音特调菠萝饮 配方",
+      "Pineapple Martini cocktail",
+      "菠萝冰沙鸡尾酒 伏特加",
+      "菠萝泡泡鸡尾酒 鸡尾酒",
+      "菠萝马提尼 鸡尾酒",
+      "Pineapple Piña Colada cocktail",
+      "烧烤配菠萝啤酒 淡色啤酒",
+      "菠萝椰林飘香 新鲜菠萝汁",
+      "菠萝冰沙鸡尾酒 配方",
+      "菠萝马提尼 制作",
+      "菠萝冰沙鸡尾酒 视频截图",
+      "抖音 菠萝泡泡鸡尾酒 教程",
+      "烧烤配菠萝啤酒 新鲜菠萝汁",
+      "Pineapple Smoothie Cocktail cocktail",
+      "Pineapple Daiquiri cocktail",
+      "小红书 菠萝椰林飘香 鸡尾酒",
+      "菠萝马提尼 伏特加",
+      "菠萝椰林飘香 配方"
+    ],
+    "statistics": {
+      "xiaohongshu_count": 5,
+      "douyin_count": 5,
+      "total_popularity": 478300
+    }
+  },
+  "cocktails": [
+    {
+      "id": 1,
+      "source": "小红书",
+      "name_zh": "菠萝椰林飘香",
+      "name_en": "Pineapple Piña Colada",
+      "description": "比传统椰林飘香更突出菠萝风味，小红书热门配方",
+      "ingredients": [
+        {
+          "name": "新鲜菠萝汁",
+          "amount": "90ml"
+        },
+        {
+          "name": "白朗姆酒",
+          "amount": "60ml"
+        },
+        {
+          "name": "椰奶",
+          "amount": "45ml"
+        },
+        {
+          "name": "椰子奶油",
+          "amount": "15ml"
+        },
+        {
+          "name": "碎冰",
+          "amount": "适量"
+        }
+      ],
+      "instructions": [
+        "将新鲜菠萝切块榨汁",
+        "所有液体原料加入搅拌机",
+        "加入大量碎冰",
+        "高速搅拌至顺滑",
+        "倒入飓风杯，用菠萝片装饰"
+      ],
+      "popularity": 8500,
+      "author": "酒鬼少女",
+      "hashtags": [
+        "#菠萝鸡尾酒",
+        "#椰林飘香",
+        "#夏日饮品"
+      ],
+      "platform_specific": {
+        "notes_count": 45,
+        "avg_likes": 189,
+        "collection_count": 320
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991154",
+      "image_search_keywords": [
+        "菠萝椰林飘香 鸡尾酒 小红书",
+        "Pineapple Piña Colada cocktail xiaohongshu",
+        "小红书 调酒 图片"
+      ],
+      "difficulty": "中等",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 2,
+      "source": "小红书",
+      "name_zh": "夏日菠萝莫吉托",
+      "name_en": "Summer Pineapple Mojito",
+      "description": "传统莫吉托的菠萝变种，小红书爆款",
+      "ingredients": [
+        {
+          "name": "新鲜菠萝汁",
+          "amount": "60ml"
+        },
+        {
+          "name": "白朗姆酒",
+          "amount": "45ml"
+        },
+        {
+          "name": "青柠汁",
+          "amount": "20ml"
+        },
+        {
+          "name": "薄荷叶",
+          "amount": "8-10片"
+        },
+        {
+          "name": "苏打水",
+          "amount": "适量"
+        },
+        {
+          "name": "糖浆",
+          "amount": "15ml"
+        }
+      ],
+      "instructions": [
+        "杯中放入薄荷叶和糖浆",
+        "轻轻捣压出薄荷香气",
+        "加入朗姆酒、菠萝汁和青柠汁",
+        "加满碎冰",
+        "用苏打水补满",
+        "用菠萝角和薄荷枝装饰"
+      ],
+      "popularity": 7200,
+      "author": "调酒师日记",
+      "hashtags": [
+        "#莫吉托",
+        "#菠萝饮品",
+        "#自制鸡尾酒"
+      ],
+      "platform_specific": {
+        "notes_count": 38,
+        "avg_likes": 165,
+        "collection_count": 280
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991200",
+      "image_search_keywords": [
+        "夏日菠萝莫吉托 鸡尾酒 小红书",
+        "Summer Pineapple Mojito cocktail xiaohongshu",
+        "小红书 调酒 图片"
+      ],
+      "difficulty": "复杂",
+      "prep_time": 11,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 3,
+      "source": "小红书",
+      "name_zh": "菠萝得其利",
+      "name_en": "Pineapple Daiquiri",
+      "description": "经典得其利鸡尾酒的菠萝版本，在小红书很受欢迎",
+      "ingredients": [
+        {
+          "name": "新鲜菠萝汁",
+          "amount": "60ml"
+        },
+        {
+          "name": "白朗姆酒",
+          "amount": "60ml"
+        },
+        {
+          "name": "青柠汁",
+          "amount": "20ml"
+        },
+        {
+          "name": "糖浆",
+          "amount": "10ml"
+        },
+        {
+          "name": "碎冰",
+          "amount": "适量"
+        }
+      ],
+      "instructions": [
+        "将所有原料放入调酒壶",
+        "加入少量碎冰",
+        "用力摇匀15秒",
+        "过滤到冰镇的鸡尾酒杯",
+        "用菠萝片装饰"
+      ],
+      "popularity": 5300,
+      "author": "酒吧在家",
+      "hashtags": [
+        "#得其利",
+        "#菠萝调酒",
+        "#经典改编"
+      ],
+      "platform_specific": {
+        "notes_count": 32,
+        "avg_likes": 142,
+        "collection_count": 210
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991214",
+      "image_search_keywords": [
+        "菠萝得其利 鸡尾酒 小红书",
+        "Pineapple Daiquiri cocktail xiaohongshu",
+        "小红书 调酒 图片"
+      ],
+      "difficulty": "中等",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 4,
+      "source": "小红书",
+      "name_zh": "菠萝马提尼",
+      "name_en": "Pineapple Martini",
+      "description": "优雅的菠萝风味马提尼，适合派对场合",
+      "ingredients": [
+        {
+          "name": "菠萝汁",
+          "amount": "60ml"
+        },
+        {
+          "name": "伏特加",
+          "amount": "45ml"
+        },
+        {
+          "name": "菠萝利口酒",
+          "amount": "15ml"
+        },
+        {
+          "name": "青柠汁",
+          "amount": "10ml"
+        }
+      ],
+      "instructions": [
+        "所有原料加冰摇匀",
+        "过滤到冰镇的马提尼杯中",
+        "用菠萝角装饰"
+      ],
+      "popularity": 4200,
+      "author": "派对达人",
+      "hashtags": [
+        "#马提尼",
+        "#派对饮品",
+        "#优雅调酒"
+      ],
+      "platform_specific": {
+        "notes_count": 28,
+        "avg_likes": 128,
+        "collection_count": 180
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991221",
+      "image_search_keywords": [
+        "菠萝马提尼 鸡尾酒 小红书",
+        "Pineapple Martini cocktail xiaohongshu",
+        "小红书 调酒 图片"
+      ],
+      "difficulty": "中等",
+      "prep_time": 7,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 5,
+      "source": "小红书",
+      "name_zh": "热带菠萝宾治",
+      "name_en": "Tropical Pineapple Punch",
+      "description": "适合多人派对的菠萝宾治，小红书分享很多",
+      "ingredients": [
+        {
+          "name": "菠萝汁",
+          "amount": "500ml"
+        },
+        {
+          "name": "橙汁",
+          "amount": "250ml"
+        },
+        {
+          "name": "朗姆酒",
+          "amount": "200ml"
+        },
+        {
+          "name": "苏打水",
+          "amount": "250ml"
+        },
+        {
+          "name": "青柠汁",
+          "amount": "60ml"
+        },
+        {
+          "name": "糖浆",
+          "amount": "30ml"
+        }
+      ],
+      "instructions": [
+        "在大容器中混合所有液体原料",
+        "加入大量冰块",
+        "轻轻搅拌",
+        "用菠萝片、橙片和薄荷装饰"
+      ],
+      "popularity": 6100,
+      "author": "派对策划师",
+      "hashtags": [
+        "#宾治",
+        "#派对酒",
+        "#多人饮品"
+      ],
+      "platform_specific": {
+        "notes_count": 41,
+        "avg_likes": 155,
+        "collection_count": 310
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991227",
+      "image_search_keywords": [
+        "热带菠萝宾治 鸡尾酒 小红书",
+        "Tropical Pineapple Punch cocktail xiaohongshu",
+        "小红书 调酒 图片"
+      ],
+      "difficulty": "复杂",
+      "prep_time": 9,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 101,
+      "source": "抖音",
+      "name_zh": "菠萝冰沙鸡尾酒",
+      "name_en": "Pineapple Smoothie Cocktail",
+      "description": "抖音爆款！菠萝冰沙与鸡尾酒的完美结合",
+      "ingredients": [
+        {
+          "name": "冷冻菠萝块",
+          "amount": "200g"
+        },
+        {
+          "name": "伏特加",
+          "amount": "45ml"
+        },
+        {
+          "name": "椰子水",
+          "amount": "60ml"
+        },
+        {
+          "name": "蜂蜜",
+          "amount": "10ml"
+        },
+        {
+          "name": "柠檬汁",
+          "amount": "15ml"
+        }
+      ],
+      "instructions": [
+        "冷冻菠萝块提前解冻10分钟",
+        "所有原料放入搅拌机",
+        "搅拌至顺滑冰沙状",
+        "倒入宽口玻璃杯",
+        "用新鲜菠萝叶和吸管装饰"
+      ],
+      "popularity": 120000,
+      "author": "调酒师阿明",
+      "hashtags": [
+        "#菠萝冰沙",
+        "#创意调酒",
+        "#抖音爆款"
+      ],
+      "platform_specific": {
+        "video_views": 2500000,
+        "shares": 8900,
+        "comments": 3400
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991233",
+      "image_search_keywords": [
+        "菠萝冰沙鸡尾酒 抖音 视频截图",
+        "Pineapple Smoothie Cocktail cocktail douyin",
+        "抖音调酒教程 图片"
+      ],
+      "difficulty": "中等",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 102,
+      "source": "抖音",
+      "name_zh": "彩虹菠萝鸡尾酒",
+      "name_en": "Rainbow Pineapple Cocktail",
+      "description": "抖音热门分层鸡尾酒，色彩绚丽，制作简单",
+      "ingredients": [
+        {
+          "name": "菠萝汁",
+          "amount": "60ml"
+        },
+        {
+          "name": "蓝橙利口酒",
+          "amount": "30ml"
+        },
+        {
+          "name": "椰奶",
+          "amount": "30ml"
+        },
+        {
+          "name": "红石榴糖浆",
+          "amount": "15ml"
+        },
+        {
+          "name": "冰块",
+          "amount": "适量"
+        }
+      ],
+      "instructions": [
+        "杯中加满冰块",
+        "沿吧匙缓缓倒入红石榴糖浆（沉底）",
+        "轻轻倒入椰奶",
+        "再倒入菠萝汁",
+        "最后加入蓝橙利口酒（浮顶）",
+        "不要搅拌，保持分层效果"
+      ],
+      "popularity": 89000,
+      "author": "饮品实验室",
+      "hashtags": [
+        "#彩虹鸡尾酒",
+        "#分层饮品",
+        "#抖音教程"
+      ],
+      "platform_specific": {
+        "video_views": 1800000,
+        "shares": 7200,
+        "comments": 2900
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991240",
+      "image_search_keywords": [
+        "彩虹菠萝鸡尾酒 抖音 视频截图",
+        "Rainbow Pineapple Cocktail cocktail douyin",
+        "抖音调酒教程 图片"
+      ],
+      "difficulty": "复杂",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 103,
+      "source": "抖音",
+      "name_zh": "烧烤配菠萝啤酒",
+      "name_en": "BBQ Pineapple Beer Cocktail",
+      "description": "抖音男士最爱，烧烤必备的菠萝啤酒鸡尾酒",
+      "ingredients": [
+        {
+          "name": "新鲜菠萝汁",
+          "amount": "150ml"
+        },
+        {
+          "name": "淡色啤酒",
+          "amount": "330ml"
+        },
+        {
+          "name": "伏特加",
+          "amount": "30ml"
+        },
+        {
+          "name": "青柠角",
+          "amount": "2个"
+        },
+        {
+          "name": "薄荷叶",
+          "amount": "少许"
+        }
+      ],
+      "instructions": [
+        "大啤酒杯中加冰块",
+        "倒入菠萝汁和伏特加",
+        "轻轻搅拌",
+        "缓慢倒入啤酒",
+        "挤入青柠汁",
+        "用青柠角和薄荷装饰"
+      ],
+      "popularity": 65000,
+      "author": "户外美食家",
+      "hashtags": [
+        "#烧烤伴侣",
+        "#啤酒调酒",
+        "#男士饮品"
+      ],
+      "platform_specific": {
+        "video_views": 1500000,
+        "shares": 5800,
+        "comments": 2300
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991247",
+      "image_search_keywords": [
+        "烧烤配菠萝啤酒 抖音 视频截图",
+        "BBQ Pineapple Beer Cocktail cocktail douyin",
+        "抖音调酒教程 图片"
+      ],
+      "difficulty": "复杂",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 104,
+      "source": "抖音",
+      "name_zh": "菠萝泡泡鸡尾酒",
+      "name_en": "Pineapple Bubble Cocktail",
+      "description": "抖音创意饮品，加入泡泡糖风味",
+      "ingredients": [
+        {
+          "name": "菠萝汁",
+          "amount": "80ml"
+        },
+        {
+          "name": "朗姆酒",
+          "amount": "50ml"
+        },
+        {
+          "name": "泡泡糖糖浆",
+          "amount": "20ml"
+        },
+        {
+          "name": "苏打水",
+          "amount": "适量"
+        },
+        {
+          "name": "蛋白",
+          "amount": "1个（可选）"
+        }
+      ],
+      "instructions": [
+        "摇酒壶中加入除苏打水外的所有原料",
+        "加冰用力摇匀（如用蛋白，需干摇后再加冰摇）",
+        "过滤到加冰的杯中",
+        "用苏打水补满",
+        "装饰泡泡糖"
+      ],
+      "popularity": 78000,
+      "author": "创意调酒师",
+      "hashtags": [
+        "#创意饮品",
+        "#泡泡糖",
+        "#抖音热门"
+      ],
+      "platform_specific": {
+        "video_views": 1900000,
+        "shares": 6800,
+        "comments": 3100
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991252",
+      "image_search_keywords": [
+        "菠萝泡泡鸡尾酒 抖音 视频截图",
+        "Pineapple Bubble Cocktail cocktail douyin",
+        "抖音调酒教程 图片"
+      ],
+      "difficulty": "中等",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    },
+    {
+      "id": 105,
+      "source": "抖音",
+      "name_zh": "抖音特调菠萝饮",
+      "name_en": "Douyin Special Pineapple Drink",
+      "description": "抖音网红特调，简单易学",
+      "ingredients": [
+        {
+          "name": "菠萝汁",
+          "amount": "100ml"
+        },
+        {
+          "name": "雪碧",
+          "amount": "150ml"
+        },
+        {
+          "name": "蓝莓",
+          "amount": "10颗"
+        },
+        {
+          "name": "薄荷叶",
+          "amount": "5片"
+        },
+        {
+          "name": "冰块",
+          "amount": "适量"
+        }
+      ],
+      "instructions": [
+        "杯中放入蓝莓和薄荷叶",
+        "轻轻捣压",
+        "加满冰块",
+        "倒入菠萝汁",
+        "用雪碧补满",
+        "轻轻搅拌"
+      ],
+      "popularity": 95000,
+      "author": "网红饮品店",
+      "hashtags": [
+        "#抖音特调",
+        "#网红饮品",
+        "#简单调酒"
+      ],
+      "platform_specific": {
+        "video_views": 2200000,
+        "shares": 8200,
+        "comments": 3800
+      },
+      "data_source": "social_media",
+      "collection_date": "2026-01-18T23:02:21.991261",
+      "image_search_keywords": [
+        "抖音特调菠萝饮 抖音 视频截图",
+        "Douyin Special Pineapple Drink cocktail douyin",
+        "抖音调酒教程 图片"
+      ],
+      "difficulty": "复杂",
+      "prep_time": 10,
+      "serving_size": "1人份"
+    }
+  ]
+}

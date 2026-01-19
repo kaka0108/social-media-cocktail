@@ -1,0 +1,10050 @@
+[
+  {
+    "id": 1,
+    "name": "Piña Colada",
+    "name_zh": "椰林飘香",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 15,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 5,
+    "description": "经典的加勒比海鸡尾酒，融合了菠萝和椰子的热带风味",
+    "story": "起源于波多黎各，1978年被宣布为波多黎各的官方饮品",
+    "ingredients": [
+      {
+        "name": "白朗姆酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "椰子奶油",
+        "amount": "45ml"
+      },
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "碎冰",
+        "amount": "1杯"
+      }
+    ],
+    "instructions": [
+      "将所有原料放入搅拌机中",
+      "加入碎冰搅拌均匀",
+      "倒入飓风杯中",
+      "用菠萝片和樱桃装饰"
+    ],
+    "garnish": [
+      "菠萝片",
+      "樱桃",
+      "小纸伞"
+    ],
+    "flavor_profile": [
+      "甜",
+      "奶油",
+      "热带"
+    ],
+    "rating": 4.8,
+    "calories": 245,
+    "origin": "波多黎各"
+  },
+  {
+    "id": 2,
+    "name": "Tequila Sunrise",
+    "name_zh": "龙舌兰日出",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 12,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 3,
+    "description": "色彩如日出般绚丽的鸡尾酒，菠萝汁的甜与龙舌兰的烈完美结合",
+    "ingredients": [
+      {
+        "name": "龙舌兰酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "60ml"
+      },
+      {
+        "name": "红石榴糖浆",
+        "amount": "15ml"
+      }
+    ],
+    "instructions": [
+      "在高球杯中加入冰块",
+      "依次倒入龙舌兰酒、菠萝汁和橙汁",
+      "轻轻搅拌",
+      "沿杯壁缓缓倒入红石榴糖浆",
+      "让它自然沉淀形成渐变效果",
+      "用橙片和樱桃装饰"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "甜",
+      "果味",
+      "清新"
+    ],
+    "rating": 4.5,
+    "calories": 210,
+    "origin": "美国"
+  },
+  {
+    "id": 3,
+    "name": "Pineapple Mojito",
+    "name_zh": "菠萝莫吉托",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 10,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 4,
+    "description": "清新爽口的菠萝版莫吉托，带有薄荷的清凉",
+    "ingredients": [
+      {
+        "name": "白朗姆酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "60ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "20ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "8-10片"
+      },
+      {
+        "name": "苏打水",
+        "amount": "适量"
+      },
+      {
+        "name": "糖浆",
+        "amount": "15ml"
+      }
+    ],
+    "instructions": [
+      "在高球杯中放入薄荷叶和糖浆",
+      "用捣棒轻轻碾压薄荷叶",
+      "加入朗姆酒、菠萝汁和青柠汁",
+      "加入碎冰搅拌",
+      "用苏打水填满",
+      "用菠萝角和薄荷枝装饰"
+    ],
+    "garnish": [
+      "菠萝角",
+      "薄荷枝",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "清新",
+      "薄荷",
+      "果味"
+    ],
+    "rating": 4.6,
+    "calories": 180,
+    "origin": "古巴"
+  },
+  {
+    "id": 4,
+    "name": "Blue Hawaii",
+    "name_zh": "蓝色夏威夷",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 17,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "梦幻的蓝色鸡尾酒，带有菠萝和椰子的热带风味",
+    "ingredients": [
+      {
+        "name": "朗姆酒",
+        "amount": "30ml"
+      },
+      {
+        "name": "蓝橙利口酒",
+        "amount": "30ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "15ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": "60ml"
+      },
+      {
+        "name": "椰子奶油",
+        "amount": "15ml"
+      },
+      {
+        "name": "碎冰",
+        "amount": "1杯"
+      }
+    ],
+    "instructions": [
+      "将所有原料放入搅拌机",
+      "加入碎冰搅拌均匀",
+      "倒入飓风杯中",
+      "用菠萝片和樱桃装饰"
+    ],
+    "garnish": [
+      "菠萝片",
+      "樱桃",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "甜",
+      "热带",
+      "奶油"
+    ],
+    "rating": 4.7,
+    "calories": 260,
+    "origin": "美国"
+  },
+  {
+    "id": 5,
+    "name": "Virgin Piña Colada",
+    "name_zh": "无酒精椰林飘香",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 5,
+    "description": "经典椰林飘香的无酒精版本，适合所有人群",
+    "ingredients": [
+      {
+        "name": "菠萝汁",
+        "amount": "120ml"
+      },
+      {
+        "name": "椰子奶油",
+        "amount": "60ml"
+      },
+      {
+        "name": "碎冰",
+        "amount": "1杯"
+      },
+      {
+        "name": "糖浆",
+        "amount": "10ml"
+      }
+    ],
+    "instructions": [
+      "将所有原料放入搅拌机",
+      "加入碎冰搅拌均匀",
+      "倒入飓风杯中",
+      "用菠萝片和樱桃装饰"
+    ],
+    "garnish": [
+      "菠萝片",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "甜",
+      "奶油",
+      "热带"
+    ],
+    "rating": 4.4,
+    "calories": 220,
+    "origin": "美国"
+  },
+  {
+    "id": 6,
+    "name": "Pineapple Special 6",
+    "name_zh": "菠萝特调6号",
+    "category": "派对饮品",
+    "alcohol_level": 3,
+    "difficulty": "简单",
+    "glass_type": "古典杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是6号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "150ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "60ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "63ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "热带",
+      "甜",
+      "果味"
+    ],
+    "rating": 3.8,
+    "calories": 287,
+    "origin": "中国"
+  },
+  {
+    "id": 7,
+    "name": "Pineapple Special 7",
+    "name_zh": "菠萝特调7号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 11,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供7号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "130ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "51ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "79ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "花香",
+      "辛辣",
+      "热带"
+    ],
+    "rating": 4.6,
+    "calories": 332,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 8,
+    "name": "Pineapple Special 8",
+    "name_zh": "菠萝特调8号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 11,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供8号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "118ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "33ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "78ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "果味",
+      "奶油",
+      "花香"
+    ],
+    "rating": 3.8,
+    "calories": 208,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 9,
+    "name": "Pineapple Special 9",
+    "name_zh": "菠萝特调9号",
+    "category": "派对饮品",
+    "alcohol_level": 17,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是9号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "60ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "52ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "73ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "热带",
+      "果味",
+      "奶油"
+    ],
+    "rating": 4.1,
+    "calories": 181,
+    "origin": "巴西"
+  },
+  {
+    "id": 10,
+    "name": "Pineapple Special 10",
+    "name_zh": "菠萝特调10号",
+    "category": "创意调酒",
+    "alcohol_level": 5,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 2,
+    "description": "创意十足的菠萝鸡尾酒，展现10号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "25ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "55ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "青柠角",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "草本",
+      "花香",
+      "酸"
+    ],
+    "rating": 3.8,
+    "calories": 177,
+    "origin": "美国"
+  },
+  {
+    "id": 11,
+    "name": "Pineapple Special 11",
+    "name_zh": "菠萝特调11号",
+    "category": "季节限定",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是11号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "110ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "42ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "酸",
+      "花香",
+      "清新"
+    ],
+    "rating": 4.5,
+    "calories": 341,
+    "origin": "古巴",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 12,
+    "name": "Pineapple Special 12",
+    "name_zh": "菠萝特调12号",
+    "category": "派对饮品",
+    "alcohol_level": 12,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是12号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "135ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "37ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "橙片",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "草本",
+      "花香",
+      "果味"
+    ],
+    "rating": 4.2,
+    "calories": 302,
+    "origin": "古巴"
+  },
+  {
+    "id": 13,
+    "name": "Pineapple Special 13",
+    "name_zh": "菠萝特调13号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 20,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "充满热带风情的菠萝鸡尾酒，带来13号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "137ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "34ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "酸",
+      "草本"
+    ],
+    "rating": 3.9,
+    "calories": 361,
+    "origin": "西班牙",
+    "story": "这款鸡尾酒是由牙买加的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 14,
+    "name": "Pineapple Special 14",
+    "name_zh": "菠萝特调14号",
+    "category": "创意调酒",
+    "alcohol_level": 26,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 10,
+    "description": "创意十足的菠萝鸡尾酒，展现14号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "42ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "90ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "花香"
+    ],
+    "rating": 3.9,
+    "calories": 342,
+    "origin": "马来西亚",
+    "story": "这款鸡尾酒是由日本的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 15,
+    "name": "Pineapple Special 15",
+    "name_zh": "菠萝特调15号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 10,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供15号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "122ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "48ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "菠萝片",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "花香"
+    ],
+    "rating": 4.6,
+    "calories": 336,
+    "origin": "日本"
+  },
+  {
+    "id": 16,
+    "name": "Pineapple Special 16",
+    "name_zh": "菠萝特调16号",
+    "category": "派对饮品",
+    "alcohol_level": 21,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是16号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "133ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "53ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "36ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "甜",
+      "辛辣"
+    ],
+    "rating": 4.7,
+    "calories": 288,
+    "origin": "牙买加"
+  },
+  {
+    "id": 17,
+    "name": "Pineapple Special 17",
+    "name_zh": "菠萝特调17号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 34,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 11,
+    "description": "充满热带风情的菠萝鸡尾酒，带来17号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "85ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "53ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "79ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "果味",
+      "花香",
+      "清新"
+    ],
+    "rating": 5.0,
+    "calories": 320,
+    "origin": "巴西",
+    "story": "这款鸡尾酒是由马来西亚的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 18,
+    "name": "Pineapple Special 18",
+    "name_zh": "菠萝特调18号",
+    "category": "季节限定",
+    "alcohol_level": 10,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是18号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "128ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "51ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "41ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "热带",
+      "辛辣",
+      "酸"
+    ],
+    "rating": 4.5,
+    "calories": 271,
+    "origin": "墨西哥",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 19,
+    "name": "Pineapple Special 19",
+    "name_zh": "菠萝特调19号",
+    "category": "派对饮品",
+    "alcohol_level": 9,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是19号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "96ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "51ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "57ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "甜",
+      "清新",
+      "果味"
+    ],
+    "rating": 4.7,
+    "calories": 204,
+    "origin": "古巴",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 20,
+    "name": "Pineapple Special 20",
+    "name_zh": "菠萝特调20号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 18,
+    "difficulty": "复杂",
+    "glass_type": "高球杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是20号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "77ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "29ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "47ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "花香",
+      "热带",
+      "草本"
+    ],
+    "rating": 3.8,
+    "calories": 151,
+    "origin": "巴西"
+  },
+  {
+    "id": 21,
+    "name": "Pineapple Special 21",
+    "name_zh": "菠萝特调21号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "高球杯",
+    "prep_time": 12,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供21号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "79ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "45ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "40ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "花香",
+      "草本",
+      "热带"
+    ],
+    "rating": 5.0,
+    "calories": 165,
+    "origin": "越南",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 22,
+    "name": "Pineapple Special 22",
+    "name_zh": "菠萝特调22号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 2,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 11,
+    "description": "充满热带风情的菠萝鸡尾酒，带来22号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "146ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "35ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "青柠角",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "热带",
+      "花香",
+      "甜"
+    ],
+    "rating": 3.6,
+    "calories": 352,
+    "origin": "中国",
+    "story": "这款鸡尾酒是由西班牙的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 23,
+    "name": "Pineapple Special 23",
+    "name_zh": "菠萝特调23号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 5,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供23号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "100ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "32ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "76ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "甜",
+      "清新",
+      "花香"
+    ],
+    "rating": 3.9,
+    "calories": 369,
+    "origin": "中国"
+  },
+  {
+    "id": 24,
+    "name": "Pineapple Special 24",
+    "name_zh": "菠萝特调24号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 28,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 9,
+    "description": "充满热带风情的菠萝鸡尾酒，带来24号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "82ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "36ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "57ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "清新",
+      "果味",
+      "草本"
+    ],
+    "rating": 4.8,
+    "calories": 224,
+    "origin": "泰国"
+  },
+  {
+    "id": 25,
+    "name": "Pineapple Special 25",
+    "name_zh": "菠萝特调25号",
+    "category": "派对饮品",
+    "alcohol_level": 19,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是25号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "113ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "43ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "37ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "甜",
+      "辛辣"
+    ],
+    "rating": 4.8,
+    "calories": 239,
+    "origin": "泰国"
+  },
+  {
+    "id": 26,
+    "name": "Pineapple Special 26",
+    "name_zh": "菠萝特调26号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 11,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 15,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是26号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "142ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "31ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "45ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "菠萝片",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "果味",
+      "草本",
+      "热带"
+    ],
+    "rating": 4.3,
+    "calories": 369,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 27,
+    "name": "Pineapple Special 27",
+    "name_zh": "菠萝特调27号",
+    "category": "创意调酒",
+    "alcohol_level": 7,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 12,
+    "description": "创意十足的菠萝鸡尾酒，展现27号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "125ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "30ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "70ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "小花伞",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "酸",
+      "花香"
+    ],
+    "rating": 4.5,
+    "calories": 309,
+    "origin": "巴西"
+  },
+  {
+    "id": 28,
+    "name": "Pineapple Special 28",
+    "name_zh": "菠萝特调28号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 14,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是28号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "53ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "30ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "小花伞",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "热带",
+      "辛辣",
+      "奶油"
+    ],
+    "rating": 4.4,
+    "calories": 269,
+    "origin": "西班牙"
+  },
+  {
+    "id": 29,
+    "name": "Pineapple Special 29",
+    "name_zh": "菠萝特调29号",
+    "category": "创意调酒",
+    "alcohol_level": 25,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 5,
+    "description": "创意十足的菠萝鸡尾酒，展现29号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "91ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "36ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "41ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "小花伞",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "花香",
+      "辛辣"
+    ],
+    "rating": 4.7,
+    "calories": 194,
+    "origin": "巴西"
+  },
+  {
+    "id": 30,
+    "name": "Pineapple Special 30",
+    "name_zh": "菠萝特调30号",
+    "category": "季节限定",
+    "alcohol_level": 15,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是30号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "147ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "31ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "41ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "小花伞",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "果味",
+      "甜"
+    ],
+    "rating": 3.7,
+    "calories": 398,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 31,
+    "name": "Pineapple Special 31",
+    "name_zh": "菠萝特调31号",
+    "category": "派对饮品",
+    "alcohol_level": 36,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是31号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "72ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "51ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "姜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "草本",
+      "甜",
+      "酸"
+    ],
+    "rating": 4.4,
+    "calories": 153,
+    "origin": "越南",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 32,
+    "name": "Pineapple Special 32",
+    "name_zh": "菠萝特调32号",
+    "category": "创意调酒",
+    "alcohol_level": 3,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 7,
+    "description": "创意十足的菠萝鸡尾酒，展现32号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "120ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "53ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "70ml"
+      },
+      {
+        "name": "姜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "花香",
+      "辛辣",
+      "果味"
+    ],
+    "rating": 4.2,
+    "calories": 269,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 33,
+    "name": "Pineapple Special 33",
+    "name_zh": "菠萝特调33号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 37,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是33号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "59ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "49ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "热带",
+      "清新",
+      "奶油"
+    ],
+    "rating": 4.3,
+    "calories": 336,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 34,
+    "name": "Pineapple Special 34",
+    "name_zh": "菠萝特调34号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 5,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供34号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "101ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "33ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "40ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "草本"
+    ],
+    "rating": 3.9,
+    "calories": 374,
+    "origin": "古巴"
+  },
+  {
+    "id": 35,
+    "name": "Pineapple Special 35",
+    "name_zh": "菠萝特调35号",
+    "category": "季节限定",
+    "alcohol_level": 7,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是35号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "92ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "45ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "87ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "酸",
+      "果味",
+      "甜"
+    ],
+    "rating": 4.8,
+    "calories": 398,
+    "origin": "马来西亚",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 36,
+    "name": "Pineapple Special 36",
+    "name_zh": "菠萝特调36号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 9,
+    "description": "充满热带风情的菠萝鸡尾酒，带来36号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "111ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "55ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "热带"
+    ],
+    "rating": 3.5,
+    "calories": 321,
+    "origin": "巴西"
+  },
+  {
+    "id": 37,
+    "name": "Pineapple Special 37",
+    "name_zh": "菠萝特调37号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 16,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "充满热带风情的菠萝鸡尾酒，带来37号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "137ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "48ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "78ml"
+      },
+      {
+        "name": "姜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "甜",
+      "热带"
+    ],
+    "rating": 3.7,
+    "calories": 236,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 38,
+    "name": "Pineapple Special 38",
+    "name_zh": "菠萝特调38号",
+    "category": "派对饮品",
+    "alcohol_level": 40,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是38号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "72ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "33ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "75ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "甜",
+      "花香"
+    ],
+    "rating": 4.0,
+    "calories": 221,
+    "origin": "巴西"
+  },
+  {
+    "id": 39,
+    "name": "Pineapple Special 39",
+    "name_zh": "菠萝特调39号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 26,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "充满热带风情的菠萝鸡尾酒，带来39号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "95ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "49ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "74ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "清新",
+      "草本",
+      "热带"
+    ],
+    "rating": 3.8,
+    "calories": 183,
+    "origin": "中国"
+  },
+  {
+    "id": 40,
+    "name": "Pineapple Special 40",
+    "name_zh": "菠萝特调40号",
+    "category": "季节限定",
+    "alcohol_level": 22,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是40号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "63ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "43ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "64ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "小花伞",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "草本",
+      "辛辣",
+      "花香"
+    ],
+    "rating": 4.2,
+    "calories": 237,
+    "origin": "意大利"
+  },
+  {
+    "id": 41,
+    "name": "Pineapple Special 41",
+    "name_zh": "菠萝特调41号",
+    "category": "季节限定",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是41号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "116ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "46ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "71ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "草本",
+      "花香",
+      "甜"
+    ],
+    "rating": 4.8,
+    "calories": 355,
+    "origin": "牙买加"
+  },
+  {
+    "id": 42,
+    "name": "Pineapple Special 42",
+    "name_zh": "菠萝特调42号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 26,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 12,
+    "description": "充满热带风情的菠萝鸡尾酒，带来42号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "129ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "59ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "77ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "热带",
+      "甜"
+    ],
+    "rating": 4.7,
+    "calories": 309,
+    "origin": "牙买加",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 43,
+    "name": "Pineapple Special 43",
+    "name_zh": "菠萝特调43号",
+    "category": "创意调酒",
+    "alcohol_level": 40,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现43号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "48ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "76ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "甜",
+      "酸",
+      "奶油"
+    ],
+    "rating": 3.7,
+    "calories": 386,
+    "origin": "巴西",
+    "story": "灵感来源于民间传说"
+  },
+  {
+    "id": 44,
+    "name": "Pineapple Special 44",
+    "name_zh": "菠萝特调44号",
+    "category": "派对饮品",
+    "alcohol_level": 11,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是44号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "146ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "49ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "34ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "甜",
+      "果味",
+      "辛辣"
+    ],
+    "rating": 4.3,
+    "calories": 156,
+    "origin": "越南"
+  },
+  {
+    "id": 45,
+    "name": "Pineapple Special 45",
+    "name_zh": "菠萝特调45号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 37,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 13,
+    "description": "充满热带风情的菠萝鸡尾酒，带来45号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "117ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "47ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "67ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "青柠角",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "奶油"
+    ],
+    "rating": 4.0,
+    "calories": 293,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 46,
+    "name": "Pineapple Special 46",
+    "name_zh": "菠萝特调46号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 1,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 13,
+    "description": "充满热带风情的菠萝鸡尾酒，带来46号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "118ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "46ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "88ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "热带",
+      "甜",
+      "草本"
+    ],
+    "rating": 4.3,
+    "calories": 239,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 47,
+    "name": "Pineapple Special 47",
+    "name_zh": "菠萝特调47号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 40,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是47号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "45ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "37ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "青柠角",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "辛辣",
+      "果味"
+    ],
+    "rating": 3.6,
+    "calories": 321,
+    "origin": "西班牙",
+    "story": "灵感来源于海边日落"
+  },
+  {
+    "id": 48,
+    "name": "Pineapple Special 48",
+    "name_zh": "菠萝特调48号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 39,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是48号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "109ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "43ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "甜",
+      "热带",
+      "果味"
+    ],
+    "rating": 4.9,
+    "calories": 231,
+    "origin": "意大利"
+  },
+  {
+    "id": 49,
+    "name": "Pineapple Special 49",
+    "name_zh": "菠萝特调49号",
+    "category": "创意调酒",
+    "alcohol_level": 14,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 15,
+    "description": "创意十足的菠萝鸡尾酒，展现49号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "135ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "44ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "39ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "酸"
+    ],
+    "rating": 4.1,
+    "calories": 359,
+    "origin": "古巴"
+  },
+  {
+    "id": 50,
+    "name": "Pineapple Special 50",
+    "name_zh": "菠萝特调50号",
+    "category": "创意调酒",
+    "alcohol_level": 11,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "创意十足的菠萝鸡尾酒，展现50号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "52ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "60ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "甜",
+      "酸"
+    ],
+    "rating": 4.1,
+    "calories": 356,
+    "origin": "古巴"
+  },
+  {
+    "id": 51,
+    "name": "Pineapple Special 51",
+    "name_zh": "菠萝特调51号",
+    "category": "派对饮品",
+    "alcohol_level": 16,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是51号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "113ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "45ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "65ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "热带",
+      "甜",
+      "酸"
+    ],
+    "rating": 3.8,
+    "calories": 184,
+    "origin": "巴西",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 52,
+    "name": "Pineapple Special 52",
+    "name_zh": "菠萝特调52号",
+    "category": "创意调酒",
+    "alcohol_level": 2,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现52号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "131ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "33ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "33ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "清新"
+    ],
+    "rating": 3.9,
+    "calories": 173,
+    "origin": "泰国",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 53,
+    "name": "Pineapple Special 53",
+    "name_zh": "菠萝特调53号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 4,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供53号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "114ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "41ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "65ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "清新"
+    ],
+    "rating": 4.6,
+    "calories": 239,
+    "origin": "古巴"
+  },
+  {
+    "id": 54,
+    "name": "Pineapple Special 54",
+    "name_zh": "菠萝特调54号",
+    "category": "创意调酒",
+    "alcohol_level": 18,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 11,
+    "description": "创意十足的菠萝鸡尾酒，展现54号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "110ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "39ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "35ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "草本",
+      "清新",
+      "酸"
+    ],
+    "rating": 3.7,
+    "calories": 248,
+    "origin": "古巴"
+  },
+  {
+    "id": 55,
+    "name": "Pineapple Special 55",
+    "name_zh": "菠萝特调55号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 40,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是55号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "73ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "59ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "81ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "草本",
+      "奶油",
+      "甜"
+    ],
+    "rating": 3.6,
+    "calories": 316,
+    "origin": "墨西哥",
+    "story": "这款鸡尾酒是由中国的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 56,
+    "name": "Pineapple Special 56",
+    "name_zh": "菠萝特调56号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 7,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是56号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "100ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "41ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "76ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "肉桂棒",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "花香",
+      "果味",
+      "热带"
+    ],
+    "rating": 3.9,
+    "calories": 379,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 57,
+    "name": "Pineapple Special 57",
+    "name_zh": "菠萝特调57号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 29,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是57号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "104ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "36ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "86ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "柠檬皮",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "热带",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 3.9,
+    "calories": 384,
+    "origin": "意大利"
+  },
+  {
+    "id": 58,
+    "name": "Pineapple Special 58",
+    "name_zh": "菠萝特调58号",
+    "category": "派对饮品",
+    "alcohol_level": 14,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 4,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是58号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "117ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "32ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "47ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "花香",
+      "辛辣"
+    ],
+    "rating": 3.8,
+    "calories": 375,
+    "origin": "西班牙",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 59,
+    "name": "Pineapple Special 59",
+    "name_zh": "菠萝特调59号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 40,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 10,
+    "description": "充满热带风情的菠萝鸡尾酒，带来59号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "127ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "50ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "42ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "酸",
+      "花香",
+      "甜"
+    ],
+    "rating": 3.7,
+    "calories": 258,
+    "origin": "西班牙",
+    "story": "灵感来源于热带雨林"
+  },
+  {
+    "id": 60,
+    "name": "Pineapple Special 60",
+    "name_zh": "菠萝特调60号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 35,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是60号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "101ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "38ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "86ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "甜",
+      "热带",
+      "草本"
+    ],
+    "rating": 4.7,
+    "calories": 229,
+    "origin": "古巴"
+  },
+  {
+    "id": 61,
+    "name": "Pineapple Special 61",
+    "name_zh": "菠萝特调61号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 7,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是61号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "96ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "42ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "热带",
+      "草本",
+      "花香"
+    ],
+    "rating": 4.8,
+    "calories": 295,
+    "origin": "法国"
+  },
+  {
+    "id": 62,
+    "name": "Pineapple Special 62",
+    "name_zh": "菠萝特调62号",
+    "category": "创意调酒",
+    "alcohol_level": 10,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现62号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "125ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "36ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "甜"
+    ],
+    "rating": 4.2,
+    "calories": 223,
+    "origin": "马来西亚",
+    "story": "灵感来源于热带雨林"
+  },
+  {
+    "id": 63,
+    "name": "Pineapple Special 63",
+    "name_zh": "菠萝特调63号",
+    "category": "季节限定",
+    "alcohol_level": 22,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是63号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "125ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "37ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "46ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "甜",
+      "酸",
+      "清新"
+    ],
+    "rating": 4.5,
+    "calories": 303,
+    "origin": "菲律宾",
+    "story": "这款鸡尾酒是由法国的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 64,
+    "name": "Pineapple Special 64",
+    "name_zh": "菠萝特调64号",
+    "category": "派对饮品",
+    "alcohol_level": 35,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是64号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "118ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "46ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "77ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "热带",
+      "花香",
+      "甜"
+    ],
+    "rating": 3.9,
+    "calories": 285,
+    "origin": "法国"
+  },
+  {
+    "id": 65,
+    "name": "Pineapple Special 65",
+    "name_zh": "菠萝特调65号",
+    "category": "季节限定",
+    "alcohol_level": 39,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 10,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是65号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "117ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "40ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "57ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "小花伞",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "花香"
+    ],
+    "rating": 3.6,
+    "calories": 219,
+    "origin": "马来西亚",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 66,
+    "name": "Pineapple Special 66",
+    "name_zh": "菠萝特调66号",
+    "category": "创意调酒",
+    "alcohol_level": 23,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 6,
+    "description": "创意十足的菠萝鸡尾酒，展现66号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "129ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "59ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "65ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "花香",
+      "甜"
+    ],
+    "rating": 3.6,
+    "calories": 313,
+    "origin": "法国"
+  },
+  {
+    "id": 67,
+    "name": "Pineapple Special 67",
+    "name_zh": "菠萝特调67号",
+    "category": "派对饮品",
+    "alcohol_level": 23,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 10,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是67号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "70ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "57ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "66ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "樱桃",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 4.8,
+    "calories": 172,
+    "origin": "美国",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 68,
+    "name": "Pineapple Special 68",
+    "name_zh": "菠萝特调68号",
+    "category": "季节限定",
+    "alcohol_level": 31,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是68号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "98ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "40ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "83ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "热带"
+    ],
+    "rating": 3.9,
+    "calories": 365,
+    "origin": "日本"
+  },
+  {
+    "id": 69,
+    "name": "Pineapple Special 69",
+    "name_zh": "菠萝特调69号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 39,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 10,
+    "description": "充满热带风情的菠萝鸡尾酒，带来69号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "61ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "43ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "71ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "甜",
+      "草本"
+    ],
+    "rating": 3.9,
+    "calories": 208,
+    "origin": "墨西哥",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 70,
+    "name": "Pineapple Special 70",
+    "name_zh": "菠萝特调70号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 18,
+    "difficulty": "简单",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是70号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "78ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "19ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "81ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "酸",
+      "热带"
+    ],
+    "rating": 3.6,
+    "calories": 219,
+    "origin": "牙买加",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 71,
+    "name": "Pineapple Special 71",
+    "name_zh": "菠萝特调71号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 6,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供71号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "64ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "56ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "81ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "辛辣"
+    ],
+    "rating": 3.8,
+    "calories": 211,
+    "origin": "墨西哥",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 72,
+    "name": "Pineapple Special 72",
+    "name_zh": "菠萝特调72号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 12,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供72号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "130ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "36ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "70ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "辛辣",
+      "花香"
+    ],
+    "rating": 3.9,
+    "calories": 196,
+    "origin": "日本",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 73,
+    "name": "Pineapple Special 73",
+    "name_zh": "菠萝特调73号",
+    "category": "创意调酒",
+    "alcohol_level": 38,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现73号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "137ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "56ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "66ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "花香",
+      "奶油",
+      "酸"
+    ],
+    "rating": 4.6,
+    "calories": 212,
+    "origin": "牙买加"
+  },
+  {
+    "id": 74,
+    "name": "Pineapple Special 74",
+    "name_zh": "菠萝特调74号",
+    "category": "创意调酒",
+    "alcohol_level": 34,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 8,
+    "description": "创意十足的菠萝鸡尾酒，展现74号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "103ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "55ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "樱桃",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "热带",
+      "清新",
+      "草本"
+    ],
+    "rating": 4.1,
+    "calories": 279,
+    "origin": "古巴"
+  },
+  {
+    "id": 75,
+    "name": "Pineapple Special 75",
+    "name_zh": "菠萝特调75号",
+    "category": "创意调酒",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 5,
+    "description": "创意十足的菠萝鸡尾酒，展现75号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "105ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "80ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "热带",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 4.7,
+    "calories": 307,
+    "origin": "墨西哥",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 76,
+    "name": "Pineapple Special 76",
+    "name_zh": "菠萝特调76号",
+    "category": "季节限定",
+    "alcohol_level": 29,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是76号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "138ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "58ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "69ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "花香",
+      "草本",
+      "酸"
+    ],
+    "rating": 4.3,
+    "calories": 323,
+    "origin": "意大利",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 77,
+    "name": "Pineapple Special 77",
+    "name_zh": "菠萝特调77号",
+    "category": "创意调酒",
+    "alcohol_level": 5,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 13,
+    "description": "创意十足的菠萝鸡尾酒，展现77号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "107ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "49ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "草本",
+      "热带",
+      "甜"
+    ],
+    "rating": 4.2,
+    "calories": 325,
+    "origin": "菲律宾",
+    "story": "这款鸡尾酒是由越南的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 78,
+    "name": "Pineapple Special 78",
+    "name_zh": "菠萝特调78号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 2,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供78号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "122ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "45ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "62ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "清新",
+      "酸"
+    ],
+    "rating": 3.8,
+    "calories": 396,
+    "origin": "西班牙",
+    "story": "这款鸡尾酒是由泰国的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 79,
+    "name": "Pineapple Special 79",
+    "name_zh": "菠萝特调79号",
+    "category": "季节限定",
+    "alcohol_level": 25,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是79号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "125ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "46ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "34ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "樱桃",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "果味",
+      "热带"
+    ],
+    "rating": 4.1,
+    "calories": 202,
+    "origin": "越南"
+  },
+  {
+    "id": 80,
+    "name": "Pineapple Special 80",
+    "name_zh": "菠萝特调80号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 30,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是80号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "139ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "32ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "花香",
+      "酸"
+    ],
+    "rating": 4.8,
+    "calories": 399,
+    "origin": "巴西",
+    "story": "灵感来源于海边日落"
+  },
+  {
+    "id": 81,
+    "name": "Pineapple Special 81",
+    "name_zh": "菠萝特调81号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 15,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供81号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "116ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "37ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "79ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "菠萝片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "花香",
+      "清新"
+    ],
+    "rating": 4.1,
+    "calories": 388,
+    "origin": "美国",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 82,
+    "name": "Pineapple Special 82",
+    "name_zh": "菠萝特调82号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供82号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "87ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "77ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "花香",
+      "热带",
+      "草本"
+    ],
+    "rating": 4.0,
+    "calories": 346,
+    "origin": "法国",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 83,
+    "name": "Pineapple Special 83",
+    "name_zh": "菠萝特调83号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 38,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "充满热带风情的菠萝鸡尾酒，带来83号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "51ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "40ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "橙片",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "清新"
+    ],
+    "rating": 4.8,
+    "calories": 272,
+    "origin": "意大利",
+    "story": "这款鸡尾酒是由西班牙的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 84,
+    "name": "Pineapple Special 84",
+    "name_zh": "菠萝特调84号",
+    "category": "派对饮品",
+    "alcohol_level": 37,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是84号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "131ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "39ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "47ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "肉桂棒",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "果味",
+      "草本"
+    ],
+    "rating": 3.8,
+    "calories": 301,
+    "origin": "巴西"
+  },
+  {
+    "id": 85,
+    "name": "Pineapple Special 85",
+    "name_zh": "菠萝特调85号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 21,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 5,
+    "description": "充满热带风情的菠萝鸡尾酒，带来85号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "55ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "酸",
+      "奶油"
+    ],
+    "rating": 4.2,
+    "calories": 275,
+    "origin": "巴西"
+  },
+  {
+    "id": 86,
+    "name": "Pineapple Special 86",
+    "name_zh": "菠萝特调86号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 36,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 2,
+    "description": "充满热带风情的菠萝鸡尾酒，带来86号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "132ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "83ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "肉桂棒",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "果味",
+      "酸"
+    ],
+    "rating": 3.9,
+    "calories": 357,
+    "origin": "法国",
+    "story": "这款鸡尾酒是由菲律宾的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 87,
+    "name": "Pineapple Special 87",
+    "name_zh": "菠萝特调87号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 10,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供87号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "97ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "50ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "87ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "樱桃",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "果味"
+    ],
+    "rating": 4.8,
+    "calories": 208,
+    "origin": "古巴"
+  },
+  {
+    "id": 88,
+    "name": "Pineapple Special 88",
+    "name_zh": "菠萝特调88号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 14,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 10,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是88号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "38ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "51ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "樱桃",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "奶油",
+      "草本"
+    ],
+    "rating": 3.9,
+    "calories": 293,
+    "origin": "意大利"
+  },
+  {
+    "id": 89,
+    "name": "Pineapple Special 89",
+    "name_zh": "菠萝特调89号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 6,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "充满热带风情的菠萝鸡尾酒，带来89号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "134ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "59ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "81ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "薄荷叶",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "清新",
+      "酸",
+      "奶油"
+    ],
+    "rating": 4.3,
+    "calories": 165,
+    "origin": "中国"
+  },
+  {
+    "id": 90,
+    "name": "Pineapple Special 90",
+    "name_zh": "菠萝特调90号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 8,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供90号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "102ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "8ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "88ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "清新",
+      "果味",
+      "酸"
+    ],
+    "rating": 4.4,
+    "calories": 286,
+    "origin": "中国"
+  },
+  {
+    "id": 91,
+    "name": "Pineapple Special 91",
+    "name_zh": "菠萝特调91号",
+    "category": "创意调酒",
+    "alcohol_level": 18,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "创意十足的菠萝鸡尾酒，展现91号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "48ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "50ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "草本",
+      "甜",
+      "花香"
+    ],
+    "rating": 3.9,
+    "calories": 217,
+    "origin": "意大利",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 92,
+    "name": "Pineapple Special 92",
+    "name_zh": "菠萝特调92号",
+    "category": "派对饮品",
+    "alcohol_level": 15,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是92号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "133ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "34ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "44ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "清新",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 3.6,
+    "calories": 252,
+    "origin": "意大利",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 93,
+    "name": "Pineapple Special 93",
+    "name_zh": "菠萝特调93号",
+    "category": "创意调酒",
+    "alcohol_level": 10,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 5,
+    "description": "创意十足的菠萝鸡尾酒，展现93号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "126ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "40ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "68ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "酸"
+    ],
+    "rating": 3.6,
+    "calories": 327,
+    "origin": "越南"
+  },
+  {
+    "id": 94,
+    "name": "Pineapple Special 94",
+    "name_zh": "菠萝特调94号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 10,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是94号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "104ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "54ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "60ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "热带",
+      "草本",
+      "甜"
+    ],
+    "rating": 3.7,
+    "calories": 374,
+    "origin": "日本"
+  },
+  {
+    "id": 95,
+    "name": "Pineapple Special 95",
+    "name_zh": "菠萝特调95号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 7,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供95号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "42ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "65ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "果味",
+      "奶油"
+    ],
+    "rating": 3.7,
+    "calories": 341,
+    "origin": "越南"
+  },
+  {
+    "id": 96,
+    "name": "Pineapple Special 96",
+    "name_zh": "菠萝特调96号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 10,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 10,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是96号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "50ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "38ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "肉桂棒",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "甜",
+      "清新",
+      "果味"
+    ],
+    "rating": 3.6,
+    "calories": 224,
+    "origin": "美国"
+  },
+  {
+    "id": 97,
+    "name": "Pineapple Special 97",
+    "name_zh": "菠萝特调97号",
+    "category": "季节限定",
+    "alcohol_level": 38,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是97号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "137ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "51ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "80ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "菠萝片",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "草本",
+      "辛辣",
+      "清新"
+    ],
+    "rating": 4.6,
+    "calories": 165,
+    "origin": "美国"
+  },
+  {
+    "id": 98,
+    "name": "Pineapple Special 98",
+    "name_zh": "菠萝特调98号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 31,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "充满热带风情的菠萝鸡尾酒，带来98号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "108ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "33ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "清新"
+    ],
+    "rating": 3.7,
+    "calories": 293,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 99,
+    "name": "Pineapple Special 99",
+    "name_zh": "菠萝特调99号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 7,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供99号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "78ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "41ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "76ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "肉桂棒",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "花香",
+      "草本"
+    ],
+    "rating": 3.7,
+    "calories": 376,
+    "origin": "西班牙"
+  },
+  {
+    "id": 100,
+    "name": "Pineapple Special 100",
+    "name_zh": "菠萝特调100号",
+    "category": "创意调酒",
+    "alcohol_level": 28,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现100号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "109ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "42ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "87ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "樱桃",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "清新",
+      "酸",
+      "奶油"
+    ],
+    "rating": 4.6,
+    "calories": 392,
+    "origin": "美国",
+    "story": "这款鸡尾酒是由越南的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 101,
+    "name": "Pineapple Special 101",
+    "name_zh": "菠萝特调101号",
+    "category": "季节限定",
+    "alcohol_level": 34,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是101号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "137ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "86ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "草本",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 3.7,
+    "calories": 361,
+    "origin": "中国",
+    "story": "起源于19世纪的传统配方"
+  },
+  {
+    "id": 102,
+    "name": "Pineapple Special 102",
+    "name_zh": "菠萝特调102号",
+    "category": "派对饮品",
+    "alcohol_level": 37,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是102号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "64ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "36ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "78ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "肉桂棒",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "清新",
+      "辛辣"
+    ],
+    "rating": 4.1,
+    "calories": 289,
+    "origin": "牙买加",
+    "story": "这款鸡尾酒是由墨西哥的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 103,
+    "name": "Pineapple Special 103",
+    "name_zh": "菠萝特调103号",
+    "category": "创意调酒",
+    "alcohol_level": 10,
+    "difficulty": "复杂",
+    "glass_type": "高球杯",
+    "prep_time": 4,
+    "description": "创意十足的菠萝鸡尾酒，展现103号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "102ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "51ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "76ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "热带",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 4.0,
+    "calories": 211,
+    "origin": "古巴"
+  },
+  {
+    "id": 104,
+    "name": "Pineapple Special 104",
+    "name_zh": "菠萝特调104号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 30,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是104号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "103ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "35ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "36ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "辛辣",
+      "甜"
+    ],
+    "rating": 4.1,
+    "calories": 384,
+    "origin": "泰国"
+  },
+  {
+    "id": 105,
+    "name": "Pineapple Special 105",
+    "name_zh": "菠萝特调105号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是105号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "112ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "33ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "87ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "草本",
+      "酸",
+      "甜"
+    ],
+    "rating": 4.1,
+    "calories": 241,
+    "origin": "中国",
+    "story": "灵感来源于热带雨林"
+  },
+  {
+    "id": 106,
+    "name": "Pineapple Special 106",
+    "name_zh": "菠萝特调106号",
+    "category": "创意调酒",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 11,
+    "description": "创意十足的菠萝鸡尾酒，展现106号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "48ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "85ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "辛辣",
+      "甜"
+    ],
+    "rating": 4.6,
+    "calories": 169,
+    "origin": "牙买加",
+    "story": "这款鸡尾酒是由牙买加的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 107,
+    "name": "Pineapple Special 107",
+    "name_zh": "菠萝特调107号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 21,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 6,
+    "description": "充满热带风情的菠萝鸡尾酒，带来107号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "115ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "37ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "64ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "樱桃",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "热带",
+      "果味",
+      "清新"
+    ],
+    "rating": 4.7,
+    "calories": 275,
+    "origin": "古巴"
+  },
+  {
+    "id": 108,
+    "name": "Pineapple Special 108",
+    "name_zh": "菠萝特调108号",
+    "category": "派对饮品",
+    "alcohol_level": 29,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是108号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "63ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "36ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "49ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "酸",
+      "清新"
+    ],
+    "rating": 4.7,
+    "calories": 269,
+    "origin": "巴西"
+  },
+  {
+    "id": 109,
+    "name": "Pineapple Special 109",
+    "name_zh": "菠萝特调109号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 11,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 13,
+    "description": "充满热带风情的菠萝鸡尾酒，带来109号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "114ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "39ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "37ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "橙片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "草本",
+      "辛辣",
+      "甜"
+    ],
+    "rating": 3.9,
+    "calories": 160,
+    "origin": "巴西",
+    "story": "灵感来源于民间传说"
+  },
+  {
+    "id": 110,
+    "name": "Pineapple Special 110",
+    "name_zh": "菠萝特调110号",
+    "category": "派对饮品",
+    "alcohol_level": 1,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 15,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是110号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "140ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "35ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "75ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "花香",
+      "酸"
+    ],
+    "rating": 4.6,
+    "calories": 252,
+    "origin": "巴西",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 111,
+    "name": "Pineapple Special 111",
+    "name_zh": "菠萝特调111号",
+    "category": "派对饮品",
+    "alcohol_level": 3,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是111号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "119ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "46ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "82ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "柠檬皮",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "酸",
+      "花香"
+    ],
+    "rating": 4.4,
+    "calories": 345,
+    "origin": "美国"
+  },
+  {
+    "id": 112,
+    "name": "Pineapple Special 112",
+    "name_zh": "菠萝特调112号",
+    "category": "创意调酒",
+    "alcohol_level": 39,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现112号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "149ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "33ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "67ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "草本",
+      "热带",
+      "辛辣"
+    ],
+    "rating": 4.9,
+    "calories": 363,
+    "origin": "泰国",
+    "story": "这款鸡尾酒是由日本的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 113,
+    "name": "Pineapple Special 113",
+    "name_zh": "菠萝特调113号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 13,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供113号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "133ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "33ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "38ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "热带",
+      "奶油",
+      "清新"
+    ],
+    "rating": 3.9,
+    "calories": 321,
+    "origin": "意大利"
+  },
+  {
+    "id": 114,
+    "name": "Pineapple Special 114",
+    "name_zh": "菠萝特调114号",
+    "category": "创意调酒",
+    "alcohol_level": 2,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现114号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "144ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "45ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "50ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "薄荷叶",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "热带",
+      "辛辣"
+    ],
+    "rating": 3.7,
+    "calories": 214,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 115,
+    "name": "Pineapple Special 115",
+    "name_zh": "菠萝特调115号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 20,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是115号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "98ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "58ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "41ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "热带"
+    ],
+    "rating": 3.7,
+    "calories": 299,
+    "origin": "泰国",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 116,
+    "name": "Pineapple Special 116",
+    "name_zh": "菠萝特调116号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 12,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供116号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "111ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "33ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "71ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "草本",
+      "果味",
+      "花香"
+    ],
+    "rating": 3.5,
+    "calories": 333,
+    "origin": "美国"
+  },
+  {
+    "id": 117,
+    "name": "Pineapple Special 117",
+    "name_zh": "菠萝特调117号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 36,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是117号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "101ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "46ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "36ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "清新",
+      "果味",
+      "酸"
+    ],
+    "rating": 4.2,
+    "calories": 263,
+    "origin": "意大利"
+  },
+  {
+    "id": 118,
+    "name": "Pineapple Special 118",
+    "name_zh": "菠萝特调118号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 7,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供118号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "102ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "36ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "草本",
+      "花香",
+      "奶油"
+    ],
+    "rating": 4.6,
+    "calories": 281,
+    "origin": "古巴"
+  },
+  {
+    "id": 119,
+    "name": "Pineapple Special 119",
+    "name_zh": "菠萝特调119号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供119号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "82ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "41ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "84ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "果味",
+      "花香"
+    ],
+    "rating": 4.4,
+    "calories": 204,
+    "origin": "泰国"
+  },
+  {
+    "id": 120,
+    "name": "Pineapple Special 120",
+    "name_zh": "菠萝特调120号",
+    "category": "季节限定",
+    "alcohol_level": 36,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是120号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "143ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "43ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "86ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "青柠角",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "酸",
+      "果味",
+      "热带"
+    ],
+    "rating": 3.7,
+    "calories": 242,
+    "origin": "越南"
+  },
+  {
+    "id": 121,
+    "name": "Pineapple Special 121",
+    "name_zh": "菠萝特调121号",
+    "category": "创意调酒",
+    "alcohol_level": 26,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 6,
+    "description": "创意十足的菠萝鸡尾酒，展现121号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "120ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "49ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "88ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "樱桃",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "热带"
+    ],
+    "rating": 3.8,
+    "calories": 216,
+    "origin": "法国"
+  },
+  {
+    "id": 122,
+    "name": "Pineapple Special 122",
+    "name_zh": "菠萝特调122号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 10,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供122号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "63ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "59ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "88ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "奶油",
+      "果味"
+    ],
+    "rating": 4.8,
+    "calories": 190,
+    "origin": "西班牙"
+  },
+  {
+    "id": 123,
+    "name": "Pineapple Special 123",
+    "name_zh": "菠萝特调123号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 28,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 4,
+    "description": "充满热带风情的菠萝鸡尾酒，带来123号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "69ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "50ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "81ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "花香",
+      "酸",
+      "果味"
+    ],
+    "rating": 3.8,
+    "calories": 380,
+    "origin": "泰国",
+    "story": "灵感来源于海边日落"
+  },
+  {
+    "id": 124,
+    "name": "Pineapple Special 124",
+    "name_zh": "菠萝特调124号",
+    "category": "创意调酒",
+    "alcohol_level": 29,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 3,
+    "description": "创意十足的菠萝鸡尾酒，展现124号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "64ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "33ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "81ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "甜",
+      "花香",
+      "奶油"
+    ],
+    "rating": 4.2,
+    "calories": 291,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 125,
+    "name": "Pineapple Special 125",
+    "name_zh": "菠萝特调125号",
+    "category": "派对饮品",
+    "alcohol_level": 16,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是125号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "118ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "54ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "89ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "果味",
+      "辛辣"
+    ],
+    "rating": 4.4,
+    "calories": 282,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 126,
+    "name": "Pineapple Special 126",
+    "name_zh": "菠萝特调126号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 35,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是126号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "89ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "56ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "42ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "小花伞",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "酸",
+      "花香",
+      "果味"
+    ],
+    "rating": 4.7,
+    "calories": 163,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 127,
+    "name": "Pineapple Special 127",
+    "name_zh": "菠萝特调127号",
+    "category": "季节限定",
+    "alcohol_level": 16,
+    "difficulty": "中等",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 15,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是127号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "67ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "草本",
+      "甜",
+      "果味"
+    ],
+    "rating": 4.4,
+    "calories": 322,
+    "origin": "牙买加",
+    "story": "灵感来源于民间传说"
+  },
+  {
+    "id": 128,
+    "name": "Pineapple Special 128",
+    "name_zh": "菠萝特调128号",
+    "category": "季节限定",
+    "alcohol_level": 34,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 5,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是128号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "118ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "55ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "83ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "肉桂棒",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "酸",
+      "甜",
+      "奶油"
+    ],
+    "rating": 4.2,
+    "calories": 311,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 129,
+    "name": "Pineapple Special 129",
+    "name_zh": "菠萝特调129号",
+    "category": "创意调酒",
+    "alcohol_level": 6,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "创意十足的菠萝鸡尾酒，展现129号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "65ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "51ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "58ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "奶油",
+      "草本"
+    ],
+    "rating": 3.5,
+    "calories": 332,
+    "origin": "墨西哥",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 130,
+    "name": "Pineapple Special 130",
+    "name_zh": "菠萝特调130号",
+    "category": "创意调酒",
+    "alcohol_level": 28,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 3,
+    "description": "创意十足的菠萝鸡尾酒，展现130号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "15ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "54ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "果味",
+      "奶油",
+      "辛辣"
+    ],
+    "rating": 3.6,
+    "calories": 338,
+    "origin": "牙买加"
+  },
+  {
+    "id": 131,
+    "name": "Pineapple Special 131",
+    "name_zh": "菠萝特调131号",
+    "category": "季节限定",
+    "alcohol_level": 32,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是131号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "62ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "37ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "54ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "果味",
+      "酸"
+    ],
+    "rating": 4.7,
+    "calories": 378,
+    "origin": "法国"
+  },
+  {
+    "id": 132,
+    "name": "Pineapple Special 132",
+    "name_zh": "菠萝特调132号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 4,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供132号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "86ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "34ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "甜",
+      "清新",
+      "草本"
+    ],
+    "rating": 4.9,
+    "calories": 185,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 133,
+    "name": "Pineapple Special 133",
+    "name_zh": "菠萝特调133号",
+    "category": "派对饮品",
+    "alcohol_level": 4,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是133号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "146ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "43ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "61ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "清新",
+      "花香"
+    ],
+    "rating": 4.4,
+    "calories": 279,
+    "origin": "中国"
+  },
+  {
+    "id": 134,
+    "name": "Pineapple Special 134",
+    "name_zh": "菠萝特调134号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 38,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是134号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "56ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "79ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "热带",
+      "甜"
+    ],
+    "rating": 4.3,
+    "calories": 349,
+    "origin": "意大利",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 135,
+    "name": "Pineapple Special 135",
+    "name_zh": "菠萝特调135号",
+    "category": "派对饮品",
+    "alcohol_level": 13,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是135号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "114ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "31ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "37ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "草本",
+      "清新",
+      "甜"
+    ],
+    "rating": 3.8,
+    "calories": 264,
+    "origin": "法国",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 136,
+    "name": "Pineapple Special 136",
+    "name_zh": "菠萝特调136号",
+    "category": "创意调酒",
+    "alcohol_level": 17,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 13,
+    "description": "创意十足的菠萝鸡尾酒，展现136号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "113ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "57ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "59ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "辛辣",
+      "花香"
+    ],
+    "rating": 4.0,
+    "calories": 320,
+    "origin": "越南",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 137,
+    "name": "Pineapple Special 137",
+    "name_zh": "菠萝特调137号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 7,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "充满热带风情的菠萝鸡尾酒，带来137号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "95ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "49ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "49ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "酸",
+      "清新",
+      "热带"
+    ],
+    "rating": 3.9,
+    "calories": 341,
+    "origin": "西班牙"
+  },
+  {
+    "id": 138,
+    "name": "Pineapple Special 138",
+    "name_zh": "菠萝特调138号",
+    "category": "派对饮品",
+    "alcohol_level": 25,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是138号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "96ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "36ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "73ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "花香",
+      "奶油"
+    ],
+    "rating": 3.9,
+    "calories": 337,
+    "origin": "古巴"
+  },
+  {
+    "id": 139,
+    "name": "Pineapple Special 139",
+    "name_zh": "菠萝特调139号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 8,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供139号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "65ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "33ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "68ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "花香",
+      "甜"
+    ],
+    "rating": 4.5,
+    "calories": 207,
+    "origin": "意大利",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 140,
+    "name": "Pineapple Special 140",
+    "name_zh": "菠萝特调140号",
+    "category": "派对饮品",
+    "alcohol_level": 15,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是140号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "89ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "58ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "66ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "甜",
+      "草本"
+    ],
+    "rating": 3.8,
+    "calories": 235,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 141,
+    "name": "Pineapple Special 141",
+    "name_zh": "菠萝特调141号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 27,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 10,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是141号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "136ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "56ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "42ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "辛辣",
+      "果味"
+    ],
+    "rating": 3.6,
+    "calories": 165,
+    "origin": "越南",
+    "story": "这款鸡尾酒是由西班牙的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 142,
+    "name": "Pineapple Special 142",
+    "name_zh": "菠萝特调142号",
+    "category": "创意调酒",
+    "alcohol_level": 2,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 15,
+    "description": "创意十足的菠萝鸡尾酒，展现142号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "75ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "31ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "32ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "酸",
+      "花香",
+      "奶油"
+    ],
+    "rating": 3.6,
+    "calories": 269,
+    "origin": "日本"
+  },
+  {
+    "id": 143,
+    "name": "Pineapple Special 143",
+    "name_zh": "菠萝特调143号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 3,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是143号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "98ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "49ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "42ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "清新",
+      "甜"
+    ],
+    "rating": 4.5,
+    "calories": 227,
+    "origin": "法国",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 144,
+    "name": "Pineapple Special 144",
+    "name_zh": "菠萝特调144号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 15,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供144号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "139ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "59ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "30ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "热带",
+      "果味",
+      "甜"
+    ],
+    "rating": 3.9,
+    "calories": 208,
+    "origin": "墨西哥"
+  },
+  {
+    "id": 145,
+    "name": "Pineapple Special 145",
+    "name_zh": "菠萝特调145号",
+    "category": "季节限定",
+    "alcohol_level": 5,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是145号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "77ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "51ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "89ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "花香",
+      "酸",
+      "甜"
+    ],
+    "rating": 3.7,
+    "calories": 219,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 146,
+    "name": "Pineapple Special 146",
+    "name_zh": "菠萝特调146号",
+    "category": "派对饮品",
+    "alcohol_level": 25,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是146号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "61ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "56ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "44ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "清新",
+      "辛辣",
+      "花香"
+    ],
+    "rating": 3.6,
+    "calories": 379,
+    "origin": "古巴"
+  },
+  {
+    "id": 147,
+    "name": "Pineapple Special 147",
+    "name_zh": "菠萝特调147号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 2,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 6,
+    "description": "充满热带风情的菠萝鸡尾酒，带来147号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "45ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "50ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "热带",
+      "草本"
+    ],
+    "rating": 5.0,
+    "calories": 175,
+    "origin": "西班牙"
+  },
+  {
+    "id": 148,
+    "name": "Pineapple Special 148",
+    "name_zh": "菠萝特调148号",
+    "category": "派对饮品",
+    "alcohol_level": 5,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是148号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "101ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "36ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "46ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "热带",
+      "辛辣",
+      "花香"
+    ],
+    "rating": 3.7,
+    "calories": 157,
+    "origin": "西班牙",
+    "story": "起源于19世纪的传统配方"
+  },
+  {
+    "id": 149,
+    "name": "Pineapple Special 149",
+    "name_zh": "菠萝特调149号",
+    "category": "季节限定",
+    "alcohol_level": 19,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是149号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "99ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "31ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "80ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "果味",
+      "花香",
+      "辛辣"
+    ],
+    "rating": 4.9,
+    "calories": 291,
+    "origin": "牙买加"
+  },
+  {
+    "id": 150,
+    "name": "Pineapple Special 150",
+    "name_zh": "菠萝特调150号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 4,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 9,
+    "description": "充满热带风情的菠萝鸡尾酒，带来150号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "106ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "10ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "53ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "热带",
+      "甜",
+      "清新"
+    ],
+    "rating": 3.5,
+    "calories": 252,
+    "origin": "牙买加"
+  },
+  {
+    "id": 151,
+    "name": "Pineapple Special 151",
+    "name_zh": "菠萝特调151号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 8,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是151号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "90ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "44ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "33ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "奶油",
+      "花香"
+    ],
+    "rating": 4.5,
+    "calories": 262,
+    "origin": "牙买加"
+  },
+  {
+    "id": 152,
+    "name": "Pineapple Special 152",
+    "name_zh": "菠萝特调152号",
+    "category": "派对饮品",
+    "alcohol_level": 8,
+    "difficulty": "复杂",
+    "glass_type": "高球杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是152号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "85ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "47ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "70ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "热带",
+      "草本",
+      "奶油"
+    ],
+    "rating": 4.3,
+    "calories": 187,
+    "origin": "法国",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 153,
+    "name": "Pineapple Special 153",
+    "name_zh": "菠萝特调153号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 26,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是153号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "115ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "53ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "59ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "酸",
+      "清新"
+    ],
+    "rating": 4.6,
+    "calories": 157,
+    "origin": "泰国"
+  },
+  {
+    "id": 154,
+    "name": "Pineapple Special 154",
+    "name_zh": "菠萝特调154号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供154号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "146ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "51ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "33ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "果味"
+    ],
+    "rating": 3.5,
+    "calories": 222,
+    "origin": "日本"
+  },
+  {
+    "id": 155,
+    "name": "Pineapple Special 155",
+    "name_zh": "菠萝特调155号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 8,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供155号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "102ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "38ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "奶油",
+      "花香"
+    ],
+    "rating": 3.9,
+    "calories": 172,
+    "origin": "日本"
+  },
+  {
+    "id": 156,
+    "name": "Pineapple Special 156",
+    "name_zh": "菠萝特调156号",
+    "category": "创意调酒",
+    "alcohol_level": 19,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 6,
+    "description": "创意十足的菠萝鸡尾酒，展现156号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "149ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "37ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "71ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "果味",
+      "辛辣"
+    ],
+    "rating": 3.7,
+    "calories": 239,
+    "origin": "越南"
+  },
+  {
+    "id": 157,
+    "name": "Pineapple Special 157",
+    "name_zh": "菠萝特调157号",
+    "category": "季节限定",
+    "alcohol_level": 8,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 15,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是157号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "120ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "59ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "72ml"
+      },
+      {
+        "name": "姜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "甜",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 4.1,
+    "calories": 345,
+    "origin": "菲律宾"
+  },
+  {
+    "id": 158,
+    "name": "Pineapple Special 158",
+    "name_zh": "菠萝特调158号",
+    "category": "季节限定",
+    "alcohol_level": 24,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 4,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是158号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "91ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "57ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "40ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "草本",
+      "甜"
+    ],
+    "rating": 4.0,
+    "calories": 231,
+    "origin": "牙买加"
+  },
+  {
+    "id": 159,
+    "name": "Pineapple Special 159",
+    "name_zh": "菠萝特调159号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 25,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是159号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "141ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "54ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "49ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "花香",
+      "热带"
+    ],
+    "rating": 4.8,
+    "calories": 197,
+    "origin": "法国"
+  },
+  {
+    "id": 160,
+    "name": "Pineapple Special 160",
+    "name_zh": "菠萝特调160号",
+    "category": "季节限定",
+    "alcohol_level": 3,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是160号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "136ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "26ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "34ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "清新",
+      "花香",
+      "辛辣"
+    ],
+    "rating": 3.6,
+    "calories": 342,
+    "origin": "泰国"
+  },
+  {
+    "id": 161,
+    "name": "Pineapple Special 161",
+    "name_zh": "菠萝特调161号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 6,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供161号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "125ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "41ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "87ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "青柠角",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "酸",
+      "奶油",
+      "果味"
+    ],
+    "rating": 4.1,
+    "calories": 182,
+    "origin": "墨西哥",
+    "story": "这款鸡尾酒是由菲律宾的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 162,
+    "name": "Pineapple Special 162",
+    "name_zh": "菠萝特调162号",
+    "category": "季节限定",
+    "alcohol_level": 24,
+    "difficulty": "复杂",
+    "glass_type": "马天尼杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是162号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "99ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "36ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "86ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "菠萝片",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "花香",
+      "甜",
+      "酸"
+    ],
+    "rating": 3.9,
+    "calories": 344,
+    "origin": "古巴"
+  },
+  {
+    "id": 163,
+    "name": "Pineapple Special 163",
+    "name_zh": "菠萝特调163号",
+    "category": "季节限定",
+    "alcohol_level": 32,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 14,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是163号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "101ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "46ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "41ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "辛辣",
+      "奶油"
+    ],
+    "rating": 4.6,
+    "calories": 396,
+    "origin": "巴西"
+  },
+  {
+    "id": 164,
+    "name": "Pineapple Special 164",
+    "name_zh": "菠萝特调164号",
+    "category": "季节限定",
+    "alcohol_level": 30,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是164号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "72ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "32ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "49ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "小花伞",
+      "橙片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 4.0,
+    "calories": 194,
+    "origin": "古巴",
+    "story": "这款鸡尾酒是由马来西亚的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 165,
+    "name": "Pineapple Special 165",
+    "name_zh": "菠萝特调165号",
+    "category": "季节限定",
+    "alcohol_level": 26,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 4,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是165号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "63ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "58ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "69ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "酸",
+      "草本",
+      "辛辣"
+    ],
+    "rating": 4.2,
+    "calories": 305,
+    "origin": "美国"
+  },
+  {
+    "id": 166,
+    "name": "Pineapple Special 166",
+    "name_zh": "菠萝特调166号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 12,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是166号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "134ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "55ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "41ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "草本",
+      "热带"
+    ],
+    "rating": 4.6,
+    "calories": 186,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 167,
+    "name": "Pineapple Special 167",
+    "name_zh": "菠萝特调167号",
+    "category": "季节限定",
+    "alcohol_level": 23,
+    "difficulty": "简单",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是167号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "147ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "37ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "68ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "辛辣",
+      "酸"
+    ],
+    "rating": 4.0,
+    "calories": 202,
+    "origin": "法国"
+  },
+  {
+    "id": 168,
+    "name": "Pineapple Special 168",
+    "name_zh": "菠萝特调168号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 8,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供168号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "59ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "75ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "菠萝片",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "果味",
+      "草本",
+      "热带"
+    ],
+    "rating": 4.7,
+    "calories": 203,
+    "origin": "越南"
+  },
+  {
+    "id": 169,
+    "name": "Pineapple Special 169",
+    "name_zh": "菠萝特调169号",
+    "category": "派对饮品",
+    "alcohol_level": 7,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是169号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "95ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "54ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "83ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "小花伞",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "草本"
+    ],
+    "rating": 4.9,
+    "calories": 231,
+    "origin": "古巴"
+  },
+  {
+    "id": 170,
+    "name": "Pineapple Special 170",
+    "name_zh": "菠萝特调170号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 33,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 5,
+    "description": "充满热带风情的菠萝鸡尾酒，带来170号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "67ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "60ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "51ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "花香",
+      "果味"
+    ],
+    "rating": 4.5,
+    "calories": 160,
+    "origin": "巴西",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 171,
+    "name": "Pineapple Special 171",
+    "name_zh": "菠萝特调171号",
+    "category": "创意调酒",
+    "alcohol_level": 35,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 2,
+    "description": "创意十足的菠萝鸡尾酒，展现171号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "122ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "48ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "50ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "甜",
+      "清新"
+    ],
+    "rating": 3.9,
+    "calories": 358,
+    "origin": "泰国"
+  },
+  {
+    "id": 172,
+    "name": "Pineapple Special 172",
+    "name_zh": "菠萝特调172号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 14,
+    "difficulty": "复杂",
+    "glass_type": "葡萄酒杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是172号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "64ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "49ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "88ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "果味",
+      "清新",
+      "辛辣"
+    ],
+    "rating": 4.4,
+    "calories": 301,
+    "origin": "意大利"
+  },
+  {
+    "id": 173,
+    "name": "Pineapple Special 173",
+    "name_zh": "菠萝特调173号",
+    "category": "派对饮品",
+    "alcohol_level": 5,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 11,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是173号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "126ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "31ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "64ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "小花伞",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "草本",
+      "热带",
+      "果味"
+    ],
+    "rating": 4.5,
+    "calories": 227,
+    "origin": "牙买加"
+  },
+  {
+    "id": 174,
+    "name": "Pineapple Special 174",
+    "name_zh": "菠萝特调174号",
+    "category": "创意调酒",
+    "alcohol_level": 19,
+    "difficulty": "简单",
+    "glass_type": "飓风杯",
+    "prep_time": 9,
+    "description": "创意十足的菠萝鸡尾酒，展现174号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "44ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "71ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "草本",
+      "奶油",
+      "辛辣"
+    ],
+    "rating": 3.9,
+    "calories": 335,
+    "origin": "泰国"
+  },
+  {
+    "id": 175,
+    "name": "Pineapple Special 175",
+    "name_zh": "菠萝特调175号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 2,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供175号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "113ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "42ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "53ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "肉桂棒",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "草本",
+      "热带"
+    ],
+    "rating": 3.8,
+    "calories": 375,
+    "origin": "中国"
+  },
+  {
+    "id": 176,
+    "name": "Pineapple Special 176",
+    "name_zh": "菠萝特调176号",
+    "category": "派对饮品",
+    "alcohol_level": 10,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 6,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是176号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "121ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "31ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "51ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "清新",
+      "果味",
+      "甜"
+    ],
+    "rating": 3.8,
+    "calories": 371,
+    "origin": "日本"
+  },
+  {
+    "id": 177,
+    "name": "Pineapple Special 177",
+    "name_zh": "菠萝特调177号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 3,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供177号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "82ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "37ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "36ml"
+      },
+      {
+        "name": "姜",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "酸",
+      "果味",
+      "草本"
+    ],
+    "rating": 4.2,
+    "calories": 186,
+    "origin": "日本"
+  },
+  {
+    "id": 178,
+    "name": "Pineapple Special 178",
+    "name_zh": "菠萝特调178号",
+    "category": "季节限定",
+    "alcohol_level": 4,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 9,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是178号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "149ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "48ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "49ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮",
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "果味",
+      "草本",
+      "奶油"
+    ],
+    "rating": 3.7,
+    "calories": 177,
+    "origin": "美国"
+  },
+  {
+    "id": 179,
+    "name": "Pineapple Special 179",
+    "name_zh": "菠萝特调179号",
+    "category": "创意调酒",
+    "alcohol_level": 23,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 15,
+    "description": "创意十足的菠萝鸡尾酒，展现179号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "149ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "35ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "37ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "小花伞",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "清新",
+      "热带"
+    ],
+    "rating": 4.9,
+    "calories": 324,
+    "origin": "古巴"
+  },
+  {
+    "id": 180,
+    "name": "Pineapple Special 180",
+    "name_zh": "菠萝特调180号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 6,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 8,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是180号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "62ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "20ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "35ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "柠檬皮",
+      "肉桂棒"
+    ],
+    "flavor_profile": [
+      "草本",
+      "辛辣",
+      "酸"
+    ],
+    "rating": 3.7,
+    "calories": 203,
+    "origin": "中国"
+  },
+  {
+    "id": 181,
+    "name": "Pineapple Special 181",
+    "name_zh": "菠萝特调181号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 25,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 12,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是181号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "66ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "57ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "44ml"
+      },
+      {
+        "name": "姜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "甜",
+      "花香",
+      "果味"
+    ],
+    "rating": 3.7,
+    "calories": 195,
+    "origin": "古巴"
+  },
+  {
+    "id": 182,
+    "name": "Pineapple Special 182",
+    "name_zh": "菠萝特调182号",
+    "category": "创意调酒",
+    "alcohol_level": 23,
+    "difficulty": "简单",
+    "glass_type": "柯林杯",
+    "prep_time": 4,
+    "description": "创意十足的菠萝鸡尾酒，展现182号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "113ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "54ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "51ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "花香",
+      "草本"
+    ],
+    "rating": 3.9,
+    "calories": 346,
+    "origin": "牙买加"
+  },
+  {
+    "id": 183,
+    "name": "Pineapple Special 183",
+    "name_zh": "菠萝特调183号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "简单",
+    "glass_type": "高球杯",
+    "prep_time": 5,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供183号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "83ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "58ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "64ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "热带",
+      "花香",
+      "清新"
+    ],
+    "rating": 4.8,
+    "calories": 274,
+    "origin": "西班牙",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 184,
+    "name": "Pineapple Special 184",
+    "name_zh": "菠萝特调184号",
+    "category": "创意调酒",
+    "alcohol_level": 26,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 15,
+    "description": "创意十足的菠萝鸡尾酒，展现184号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "150ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "58ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "72ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "甜",
+      "果味",
+      "热带"
+    ],
+    "rating": 4.2,
+    "calories": 186,
+    "origin": "泰国"
+  },
+  {
+    "id": 185,
+    "name": "Pineapple Special 185",
+    "name_zh": "菠萝特调185号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 38,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 2,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是185号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "68ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "33ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "62ml"
+      },
+      {
+        "name": "蜂蜜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "果味",
+      "甜"
+    ],
+    "rating": 4.8,
+    "calories": 314,
+    "origin": "泰国",
+    "story": "灵感来源于传统节日"
+  },
+  {
+    "id": 186,
+    "name": "Pineapple Special 186",
+    "name_zh": "菠萝特调186号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 21,
+    "difficulty": "简单",
+    "glass_type": "古典杯",
+    "prep_time": 9,
+    "description": "充满热带风情的菠萝鸡尾酒，带来186号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "106ml"
+      },
+      {
+        "name": "白兰地",
+        "amount": "47ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "85ml"
+      },
+      {
+        "name": "姜",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角",
+      "樱桃",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "清新"
+    ],
+    "rating": 3.7,
+    "calories": 315,
+    "origin": "美国",
+    "story": "曾获得美食节的奖项"
+  },
+  {
+    "id": 187,
+    "name": "Pineapple Special 187",
+    "name_zh": "菠萝特调187号",
+    "category": "季节限定",
+    "alcohol_level": 21,
+    "difficulty": "复杂",
+    "glass_type": "飓风杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是187号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "80ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "52ml"
+      },
+      {
+        "name": "汤力水",
+        "amount": "79ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "2-3片"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用吧匙搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "果味",
+      "酸",
+      "辛辣"
+    ],
+    "rating": 3.9,
+    "calories": 369,
+    "origin": "美国",
+    "story": "起源于20世纪70年代的传统配方"
+  },
+  {
+    "id": 188,
+    "name": "Pineapple Special 188",
+    "name_zh": "菠萝特调188号",
+    "category": "派对饮品",
+    "alcohol_level": 24,
+    "difficulty": "复杂",
+    "glass_type": "古典杯",
+    "prep_time": 7,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是188号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "102ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "53ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": "34ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "橙片",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "甜",
+      "辛辣",
+      "草本"
+    ],
+    "rating": 4.3,
+    "calories": 226,
+    "origin": "越南"
+  },
+  {
+    "id": 189,
+    "name": "Pineapple Special 189",
+    "name_zh": "菠萝特调189号",
+    "category": "经典鸡尾酒",
+    "alcohol_level": 37,
+    "difficulty": "中等",
+    "glass_type": "马天尼杯",
+    "prep_time": 3,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是189号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "130ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "31ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "34ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "薄荷叶",
+      "柠檬皮"
+    ],
+    "flavor_profile": [
+      "甜",
+      "草本",
+      "奶油"
+    ],
+    "rating": 4.8,
+    "calories": 384,
+    "origin": "菲律宾",
+    "story": "起源于21世纪初的传统配方"
+  },
+  {
+    "id": 190,
+    "name": "Pineapple Special 190",
+    "name_zh": "菠萝特调190号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 14,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供190号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "145ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "24ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "89ml"
+      },
+      {
+        "name": "薄荷叶",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "肉桂棒",
+      "柠檬皮",
+      "薄荷叶"
+    ],
+    "flavor_profile": [
+      "花香",
+      "清新",
+      "热带"
+    ],
+    "rating": 4.5,
+    "calories": 194,
+    "origin": "意大利"
+  },
+  {
+    "id": 191,
+    "name": "Pineapple Special 191",
+    "name_zh": "菠萝特调191号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 18,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 2,
+    "description": "充满热带风情的菠萝鸡尾酒，带来191号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "150ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "46ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": "32ml"
+      },
+      {
+        "name": "肉桂",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "热带",
+      "酸",
+      "花香"
+    ],
+    "rating": 3.7,
+    "calories": 276,
+    "origin": "马来西亚"
+  },
+  {
+    "id": 192,
+    "name": "Pineapple Special 192",
+    "name_zh": "菠萝特调192号",
+    "category": "创意调酒",
+    "alcohol_level": 32,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 14,
+    "description": "创意十足的菠萝鸡尾酒，展现192号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "61ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "47ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1枝"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片"
+    ],
+    "flavor_profile": [
+      "草本",
+      "甜",
+      "清新"
+    ],
+    "rating": 4.8,
+    "calories": 158,
+    "origin": "意大利"
+  },
+  {
+    "id": 193,
+    "name": "Pineapple Special 193",
+    "name_zh": "菠萝特调193号",
+    "category": "季节限定",
+    "alcohol_level": 25,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 15,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是193号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "148ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "40ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "63ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "果味",
+      "奶油",
+      "辛辣"
+    ],
+    "rating": 4.8,
+    "calories": 222,
+    "origin": "泰国",
+    "story": "曾获得国际调酒大赛的奖项"
+  },
+  {
+    "id": 194,
+    "name": "Pineapple Special 194",
+    "name_zh": "菠萝特调194号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 35,
+    "difficulty": "中等",
+    "glass_type": "古典杯",
+    "prep_time": 14,
+    "description": "充满热带风情的菠萝鸡尾酒，带来194号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "80ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "32ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "78ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在直接杯中中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃",
+      "小花伞"
+    ],
+    "flavor_profile": [
+      "花香",
+      "奶油",
+      "草本"
+    ],
+    "rating": 4.9,
+    "calories": 323,
+    "origin": "牙买加"
+  },
+  {
+    "id": 195,
+    "name": "Pineapple Special 195",
+    "name_zh": "菠萝特调195号",
+    "category": "创意调酒",
+    "alcohol_level": 22,
+    "difficulty": "中等",
+    "glass_type": "高球杯",
+    "prep_time": 15,
+    "description": "创意十足的菠萝鸡尾酒，展现195号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "38ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "48ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "少量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "薄荷叶",
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "果味",
+      "辛辣",
+      "清新"
+    ],
+    "rating": 4.2,
+    "calories": 313,
+    "origin": "意大利",
+    "story": "这款鸡尾酒是由法国的调酒师创作，深受当地欢迎"
+  },
+  {
+    "id": 196,
+    "name": "Pineapple Special 196",
+    "name_zh": "菠萝特调196号",
+    "category": "无酒精",
+    "alcohol_level": 0,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 4,
+    "description": "清爽的无酒精菠萝饮品，适合所有人群，提供196号独特体验",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "119ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "37ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "61ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "橙片",
+      "樱桃",
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "奶油",
+      "甜",
+      "花香"
+    ],
+    "rating": 5.0,
+    "calories": 234,
+    "origin": "古巴"
+  },
+  {
+    "id": 197,
+    "name": "Pineapple Special 197",
+    "name_zh": "菠萝特调197号",
+    "category": "创意调酒",
+    "alcohol_level": 20,
+    "difficulty": "中等",
+    "glass_type": "柯林杯",
+    "prep_time": 9,
+    "description": "创意十足的菠萝鸡尾酒，展现197号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "75ml"
+      },
+      {
+        "name": "威士忌",
+        "amount": "44ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "57ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "轻轻搅拌",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "菠萝片"
+    ],
+    "flavor_profile": [
+      "花香",
+      "奶油",
+      "热带"
+    ],
+    "rating": 3.7,
+    "calories": 346,
+    "origin": "西班牙"
+  },
+  {
+    "id": 198,
+    "name": "Pineapple Special 198",
+    "name_zh": "菠萝特调198号",
+    "category": "创意调酒",
+    "alcohol_level": 36,
+    "difficulty": "简单",
+    "glass_type": "马天尼杯",
+    "prep_time": 13,
+    "description": "创意十足的菠萝鸡尾酒，展现198号独特风味组合",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "81ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "椰奶",
+        "amount": "85ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入准备好的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "青柠角"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "热带",
+      "花香"
+    ],
+    "rating": 4.6,
+    "calories": 243,
+    "origin": "西班牙"
+  },
+  {
+    "id": 199,
+    "name": "Pineapple Special 199",
+    "name_zh": "菠萝特调199号",
+    "category": "季节限定",
+    "alcohol_level": 24,
+    "difficulty": "中等",
+    "glass_type": "飓风杯",
+    "prep_time": 13,
+    "description": "美味的菠萝汁鸡尾酒，融合了热带风情和独特口感，是199号特色饮品",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "74ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "31ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "55ml"
+      },
+      {
+        "name": "姜",
+        "amount": "1茶匙"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在搅拌杯中加入冰块",
+      "依次加入液体原料",
+      "用力摇匀10-15秒",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "辛辣",
+      "酸",
+      "果味"
+    ],
+    "rating": 3.6,
+    "calories": 267,
+    "origin": "美国",
+    "story": "曾获得本地鸡尾酒比赛的奖项"
+  },
+  {
+    "id": 200,
+    "name": "Pineapple Special 200",
+    "name_zh": "菠萝特调200号",
+    "category": "热带鸡尾酒",
+    "alcohol_level": 35,
+    "difficulty": "复杂",
+    "glass_type": "柯林杯",
+    "prep_time": 8,
+    "description": "充满热带风情的菠萝鸡尾酒，带来200号度假感觉",
+    "ingredients": [
+      {
+        "name": "新鲜菠萝汁",
+        "amount": "111ml"
+      },
+      {
+        "name": "金酒",
+        "amount": "27ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "88ml"
+      },
+      {
+        "name": "肉豆蔻",
+        "amount": "适量"
+      }
+    ],
+    "instructions": [
+      "准备所有原料和调酒工具",
+      "在调酒壶中加入冰块",
+      "依次加入液体原料",
+      "使用搅拌机混合",
+      "过滤倒入装满冰块的杯中",
+      "用装饰物点缀",
+      "立即享用"
+    ],
+    "garnish": [
+      "樱桃"
+    ],
+    "flavor_profile": [
+      "花香",
+      "酸",
+      "果味"
+    ],
+    "rating": 3.7,
+    "calories": 325,
+    "origin": "菲律宾"
+  }
+]

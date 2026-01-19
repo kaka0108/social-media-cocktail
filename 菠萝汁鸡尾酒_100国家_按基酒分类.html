@@ -1,0 +1,2971 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球100国菠萝汁鸡尾酒大全 | 按基酒分类</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.97);
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            padding: 30px;
+        }
+
+        /* 头部样式 */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(90deg, #2c3e50, #3498db);
+            color: white;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "🍍🍹";
+            font-size: 120px;
+            position: absolute;
+            opacity: 0.1;
+            right: 50px;
+            top: 20px;
+            transform: rotate(15deg);
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        /* 统计信息 */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px 25px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        /* 导航按钮 */
+        .filter-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            background: white;
+            color: #333;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-btn.active {
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        /* 鸡尾酒网格 */
+        .cocktails-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .cocktail-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.4s ease;
+            opacity: 0.95;
+        }
+
+        .cocktail-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            opacity: 1;
+        }
+
+        .cocktail-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-bottom: 5px solid #FFD700;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .country-name {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .cocktail-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .spirit-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .ingredients {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .ingredient {
+            background: #e8f4fc;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px dashed #ddd;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .cocktails-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .filter-nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .filter-btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-cocktail"></i> 全球菠萝汁鸡尾酒探索</h1>
+            <p class="subtitle">汇集100个国家特色配方 | 按基酒分类 | 精选精美图片</p>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">100</div>
+                    <div>国家/地区</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100</div>
+                    <div>鸡尾酒配方</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">6</div>
+                    <div>基酒分类</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 分类筛选 -->
+        <div class="filter-nav" id="filterNav">
+            <button class="filter-btn active" data-filter="all">
+                <i class="fas fa-globe"></i> 全部 (100)
+            </button>
+    
+            <button class="filter-btn" data-filter="朗姆酒" style="border: 2px solid #D4AF37;">
+                <i class="fas fa-cocktail"></i> 朗姆酒 (12)
+            </button>
+        
+            <button class="filter-btn" data-filter="威士忌" style="border: 2px solid #8B4513;">
+                <i class="fas fa-whiskey-glass"></i> 威士忌 (17)
+            </button>
+        
+            <button class="filter-btn" data-filter="其他" style="border: 2px solid #9370DB;">
+                <i class="fas fa-wine-glass-alt"></i> 其他 (21)
+            </button>
+        
+            <button class="filter-btn" data-filter="伏特加" style="border: 2px solid #FFFFFF;">
+                <i class="fas fa-wine-bottle"></i> 伏特加 (17)
+            </button>
+        
+            <button class="filter-btn" data-filter="龙舌兰" style="border: 2px solid #FFD700;">
+                <i class="fas fa-pepper-hot"></i> 龙舌兰 (11)
+            </button>
+        
+            <button class="filter-btn" data-filter="金酒" style="border: 2px solid #98FF98;">
+                <i class="fas fa-leaf"></i> 金酒 (22)
+            </button>
+        
+        </div>
+
+        <!-- 鸡尾酒展示区 -->
+        <div class="cocktails-grid" id="cocktailsGrid">
+    
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,809" alt="椰林陈年朗姆飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 中国
+                    </div>
+                    <h3 class="cocktail-name">椰林陈年朗姆飘香</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        陈年朗姆
+                    </span>
+
+                    <p class="description">中国调酒师的创意之作，菠萝汁为陈年朗姆增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年朗姆</span><span class="ingredient">蜂蜜</span><span class="ingredient">辣椒</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">蛋清</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,895" alt="椰林苏格兰威士忌飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 美国
+                    </div>
+                    <h3 class="cocktail-name">椰林苏格兰威士忌飘香</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        苏格兰威士忌
+                    </span>
+
+                    <p class="description">美国调酒师的创意之作，菠萝汁为苏格兰威士忌增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">苏格兰威士忌</span><span class="ingredient">汤力水</span><span class="ingredient">椰丝</span><span class="ingredient">生姜</span><span class="ingredient">杏仁糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?drink,747" alt="菠萝烧酒魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 日本
+                    </div>
+                    <h3 class="cocktail-name">菠萝烧酒魔法</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        烧酒
+                    </span>
+
+                    <p class="description">这款日本特色鸡尾酒融合了新鲜菠萝汁的香甜与烧酒的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">烧酒</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">枫糖浆</span><span class="ingredient">辣椒</span><span class="ingredient">芒果汁</span><span class="ingredient">薄荷叶</span><span class="ingredient">百香果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,678" alt="黑朗姆菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴西
+                    </div>
+                    <h3 class="cocktail-name">黑朗姆菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        黑朗姆
+                    </span>
+
+                    <p class="description">这款巴西鸡尾酒以黑朗姆为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">黑朗姆</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">糖浆</span><span class="ingredient">糖边</span><span class="ingredient">石榴糖浆</span><span class="ingredient">椰奶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,84" alt="调味伏特加菠萝莫吉托" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 墨西哥
+                    </div>
+                    <h3 class="cocktail-name">调味伏特加菠萝莫吉托</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        调味伏特加
+                    </span>
+
+                    <p class="description">这款墨西哥鸡尾酒以调味伏特加为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">调味伏特加</span><span class="ingredient">薄荷叶</span><span class="ingredient">碎冰</span><span class="ingredient">青柠汁</span><span class="ingredient">可可粉</span><span class="ingredient">香蕉泥</span><span class="ingredient">百香果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,113" alt="菠萝苏格兰威士忌魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 印度
+                    </div>
+                    <h3 class="cocktail-name">菠萝苏格兰威士忌魔法</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        苏格兰威士忌
+                    </span>
+
+                    <p class="description">这款印度鸡尾酒以苏格兰威士忌为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">苏格兰威士忌</span><span class="ingredient">薄荷叶</span><span class="ingredient">糖浆</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">糖边</span><span class="ingredient">迷迭香</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?summer,278" alt="热带风情白兰地" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 俄罗斯
+                    </div>
+                    <h3 class="cocktail-name">热带风情白兰地</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        白兰地
+                    </span>
+
+                    <p class="description">俄罗斯调酒师的创意之作，菠萝汁为白兰地增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">白兰地</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">可可粉</span><span class="ingredient">蜂蜜</span><span class="ingredient">糖边</span><span class="ingredient">香草精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,600" alt="香料朗姆菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 德国
+                    </div>
+                    <h3 class="cocktail-name">香料朗姆菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">这款德国特色鸡尾酒融合了新鲜菠萝汁的香甜与香料朗姆的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">椰奶</span><span class="ingredient">蜂蜜</span><span class="ingredient">碎冰</span><span class="ingredient">姜汁啤酒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,888" alt="金标龙舌兰菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 英国
+                    </div>
+                    <h3 class="cocktail-name">金标龙舌兰菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        金标龙舌兰
+                    </span>
+
+                    <p class="description">源自英国的传统配方，菠萝汁与金标龙舌兰完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">金标龙舌兰</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">可可粉</span><span class="ingredient">辣椒</span><span class="ingredient">生姜</span><span class="ingredient">迷迭香</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,186" alt="热带香料朗姆菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 法国
+                    </div>
+                    <h3 class="cocktail-name">热带香料朗姆菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">这款法国鸡尾酒以香料朗姆为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">椰丝</span><span class="ingredient">奶油</span><span class="ingredient">生姜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,178" alt="菠萝皮斯科风暴" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 意大利
+                    </div>
+                    <h3 class="cocktail-name">菠萝皮斯科风暴</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        皮斯科
+                    </span>
+
+                    <p class="description">意大利调酒师的创意之作，菠萝汁为皮斯科增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">皮斯科</span><span class="ingredient">石榴糖浆</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">奶油</span><span class="ingredient">迷迭香</span><span class="ingredient">苏打水</span><span class="ingredient">肉豆蔻粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,897" alt="金色日本威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 西班牙
+                    </div>
+                    <h3 class="cocktail-name">金色日本威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">西班牙调酒师的创意之作，菠萝汁为日本威士忌增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">香蕉泥</span><span class="ingredient">柠檬汁</span><span class="ingredient">芒果汁</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,5" alt="热带风情老汤姆金" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 加拿大
+                    </div>
+                    <h3 class="cocktail-name">热带风情老汤姆金</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">这款加拿大特色鸡尾酒融合了新鲜菠萝汁的香甜与老汤姆金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">橙汁</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">苦精</span><span class="ingredient">迷迭香</span><span class="ingredient">肉豆蔻粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,739" alt="菠萝陈年朗姆酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 澳大利亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝陈年朗姆酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        陈年朗姆
+                    </span>
+
+                    <p class="description">这款澳大利亚特色鸡尾酒融合了新鲜菠萝汁的香甜与陈年朗姆的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年朗姆</span><span class="ingredient">橙汁</span><span class="ingredient">薄荷叶</span><span class="ingredient">迷迭香</span><span class="ingredient">碎冰</span><span class="ingredient">芒果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,367" alt="菠萝伦敦干金狂欢" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 韩国
+                    </div>
+                    <h3 class="cocktail-name">菠萝伦敦干金狂欢</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">这款韩国特色鸡尾酒融合了新鲜菠萝汁的香甜与伦敦干金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">草莓泥</span><span class="ingredient">椰丝</span><span class="ingredient">糖浆</span><span class="ingredient">汤力水</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,542" alt="热带马铃薯伏特加日落" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 泰国
+                    </div>
+                    <h3 class="cocktail-name">热带马铃薯伏特加日落</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        马铃薯伏特加
+                    </span>
+
+                    <p class="description">这款泰国特色鸡尾酒融合了新鲜菠萝汁的香甜与马铃薯伏特加的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">马铃薯伏特加</span><span class="ingredient">盐边</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">石榴糖浆</span><span class="ingredient">柠檬汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,759" alt="阳光日本威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 越南
+                    </div>
+                    <h3 class="cocktail-name">阳光日本威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">越南调酒师的创意之作，菠萝汁为日本威士忌增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">椰丝</span><span class="ingredient">蜂蜜</span><span class="ingredient">薄荷叶</span><span class="ingredient">可可粉</span><span class="ingredient">柠檬汁</span><span class="ingredient">苦精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,221" alt="热带烧酒菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 菲律宾
+                    </div>
+                    <h3 class="cocktail-name">热带烧酒菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        烧酒
+                    </span>
+
+                    <p class="description">菲律宾调酒师的创意之作，菠萝汁为烧酒增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">烧酒</span><span class="ingredient">可可粉</span><span class="ingredient">蛋清</span><span class="ingredient">蜂蜜</span><span class="ingredient">汤力水</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,860" alt="热带风情金标龙舌兰" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 马来西亚
+                    </div>
+                    <h3 class="cocktail-name">热带风情金标龙舌兰</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        金标龙舌兰
+                    </span>
+
+                    <p class="description">马来西亚调酒师的创意之作，菠萝汁为金标龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">金标龙舌兰</span><span class="ingredient">糖浆</span><span class="ingredient">可可粉</span><span class="ingredient">薄荷叶</span><span class="ingredient">蜂蜜</span><span class="ingredient">汤力水</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,251" alt="老汤姆金菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 新加坡
+                    </div>
+                    <h3 class="cocktail-name">老汤姆金菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">这款新加坡特色鸡尾酒融合了新鲜菠萝汁的香甜与老汤姆金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">芒果汁</span><span class="ingredient">蛋清</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">香草精</span><span class="ingredient">椰丝</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?drink,78" alt="阳光爱尔兰威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 印度尼西亚
+                    </div>
+                    <h3 class="cocktail-name">阳光爱尔兰威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        爱尔兰威士忌
+                    </span>
+
+                    <p class="description">这款印度尼西亚鸡尾酒以爱尔兰威士忌为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">爱尔兰威士忌</span><span class="ingredient">柠檬汁</span><span class="ingredient">青柠汁</span><span class="ingredient">生姜</span><span class="ingredient">苏打水</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">石榴糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,426" alt="热带伦敦干金日落" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 土耳其
+                    </div>
+                    <h3 class="cocktail-name">热带伦敦干金日落</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">源自土耳其的传统配方，菠萝汁与伦敦干金完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">草莓泥</span><span class="ingredient">橙汁</span><span class="ingredient">糖边</span><span class="ingredient">奶油</span><span class="ingredient">芒果汁</span><span class="ingredient">蛋清</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?drink,604" alt="阳光苏格兰威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 沙特阿拉伯
+                    </div>
+                    <h3 class="cocktail-name">阳光苏格兰威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        苏格兰威士忌
+                    </span>
+
+                    <p class="description">沙特阿拉伯调酒师的创意之作，菠萝汁为苏格兰威士忌增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">苏格兰威士忌</span><span class="ingredient">生姜</span><span class="ingredient">可可粉</span><span class="ingredient">奶油</span><span class="ingredient">苏打水</span><span class="ingredient">糖边</span><span class="ingredient">百香果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,577" alt="银标龙舌兰菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 伊朗
+                    </div>
+                    <h3 class="cocktail-name">银标龙舌兰菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        银标龙舌兰
+                    </span>
+
+                    <p class="description">这款伊朗特色鸡尾酒融合了新鲜菠萝汁的香甜与银标龙舌兰的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">银标龙舌兰</span><span class="ingredient">石榴糖浆</span><span class="ingredient">草莓泥</span><span class="ingredient">糖边</span><span class="ingredient">碎冰</span><span class="ingredient">糖浆</span><span class="ingredient">芒果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,512" alt="老汤姆金菠萝莫吉托" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 埃及
+                    </div>
+                    <h3 class="cocktail-name">老汤姆金菠萝莫吉托</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">这款埃及特色鸡尾酒融合了新鲜菠萝汁的香甜与老汤姆金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">蛋清</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">辣椒</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?drink,952" alt="金色皮斯科菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 南非
+                    </div>
+                    <h3 class="cocktail-name">金色皮斯科菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        皮斯科
+                    </span>
+
+                    <p class="description">南非调酒师的创意之作，菠萝汁为皮斯科增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">皮斯科</span><span class="ingredient">枫糖浆</span><span class="ingredient">芒果汁</span><span class="ingredient">柠檬汁</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">蜂蜜</span><span class="ingredient">生姜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?summer,98" alt="海滩黑朗姆菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 尼日利亚
+                    </div>
+                    <h3 class="cocktail-name">海滩黑朗姆菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        黑朗姆
+                    </span>
+
+                    <p class="description">尼日利亚调酒师的创意之作，菠萝汁为黑朗姆增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">黑朗姆</span><span class="ingredient">碎冰</span><span class="ingredient">糖边</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">苦精</span><span class="ingredient">香蕉泥</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,353" alt="菠萝伦敦干金魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 肯尼亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝伦敦干金魔法</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">肯尼亚调酒师的创意之作，菠萝汁为伦敦干金增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">糖边</span><span class="ingredient">百香果汁</span><span class="ingredient">辣椒</span><span class="ingredient">香草精</span><span class="ingredient">青柠汁</span><span class="ingredient">橙汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,115" alt="金色卡夏莎菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 埃塞俄比亚
+                    </div>
+                    <h3 class="cocktail-name">金色卡夏莎菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">埃塞俄比亚调酒师的创意之作，菠萝汁为卡夏莎增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">肉桂粉</span><span class="ingredient">橙汁</span><span class="ingredient">柠檬汁</span><span class="ingredient">青柠汁</span><span class="ingredient">薄荷叶</span><span class="ingredient">芒果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,923" alt="热带风情经典伏特加" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 摩洛哥
+                    </div>
+                    <h3 class="cocktail-name">热带风情经典伏特加</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">源自摩洛哥的传统配方，菠萝汁与经典伏特加完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">橙汁</span><span class="ingredient">迷迭香</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?summer,856" alt="白兰地菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 阿根廷
+                    </div>
+                    <h3 class="cocktail-name">白兰地菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        白兰地
+                    </span>
+
+                    <p class="description">这款阿根廷鸡尾酒以白兰地为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">白兰地</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">苦精</span><span class="ingredient">草莓泥</span><span class="ingredient">生姜</span><span class="ingredient">香草精</span><span class="ingredient">罗勒叶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,143" alt="伦敦干金菠萝宾治" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 智利
+                    </div>
+                    <h3 class="cocktail-name">伦敦干金菠萝宾治</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">智利调酒师的创意之作，菠萝汁为伦敦干金增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">椰奶</span><span class="ingredient">生姜</span><span class="ingredient">蜂蜜</span><span class="ingredient">草莓泥</span><span class="ingredient">盐边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,913" alt="阳光皮斯科菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 秘鲁
+                    </div>
+                    <h3 class="cocktail-name">阳光皮斯科菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        皮斯科
+                    </span>
+
+                    <p class="description">源自秘鲁的传统配方，菠萝汁与皮斯科完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">皮斯科</span><span class="ingredient">盐边</span><span class="ingredient">生姜</span><span class="ingredient">芒果汁</span><span class="ingredient">百香果汁</span><span class="ingredient">橙汁</span><span class="ingredient">香草精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,574" alt="热带风情小麦伏特加" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 哥伦比亚
+                    </div>
+                    <h3 class="cocktail-name">热带风情小麦伏特加</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        小麦伏特加
+                    </span>
+
+                    <p class="description">哥伦比亚调酒师的创意之作，菠萝汁为小麦伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">小麦伏特加</span><span class="ingredient">芒果汁</span><span class="ingredient">香草精</span><span class="ingredient">迷迭香</span><span class="ingredient">石榴糖浆</span><span class="ingredient">肉桂粉</span><span class="ingredient">糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,401" alt="经典伏特加菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 委内瑞拉
+                    </div>
+                    <h3 class="cocktail-name">经典伏特加菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">委内瑞拉调酒师的创意之作，菠萝汁为经典伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">汤力水</span><span class="ingredient">肉桂粉</span><span class="ingredient">草莓泥</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?drink,391" alt="海滩陈年龙舌兰菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 古巴
+                    </div>
+                    <h3 class="cocktail-name">海滩陈年龙舌兰菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        陈年龙舌兰
+                    </span>
+
+                    <p class="description">古巴调酒师的创意之作，菠萝汁为陈年龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年龙舌兰</span><span class="ingredient">苦精</span><span class="ingredient">薄荷叶</span><span class="ingredient">辣椒</span><span class="ingredient">可可粉</span><span class="ingredient">盐边</span><span class="ingredient">葡萄柚汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?summer,520" alt="热带风情烧酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 牙买加
+                    </div>
+                    <h3 class="cocktail-name">热带风情烧酒</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        烧酒
+                    </span>
+
+                    <p class="description">源自牙买加的传统配方，菠萝汁与烧酒完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">烧酒</span><span class="ingredient">生姜</span><span class="ingredient">糖浆</span><span class="ingredient">迷迭香</span><span class="ingredient">枫糖浆</span><span class="ingredient">薄荷叶</span><span class="ingredient">香蕉泥</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,839" alt="阳光荷兰金酒菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 多米尼加
+                    </div>
+                    <h3 class="cocktail-name">阳光荷兰金酒菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">这款多米尼加鸡尾酒以荷兰金酒为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">汤力水</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">辣椒</span><span class="ingredient">草莓泥</span><span class="ingredient">香草精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,947" alt="海滩伦敦干金菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 波多黎各
+                    </div>
+                    <h3 class="cocktail-name">海滩伦敦干金菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">源自波多黎各的传统配方，菠萝汁与伦敦干金完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">青柠汁</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">可可粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,506" alt="菠萝经典伏特加魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴哈马
+                    </div>
+                    <h3 class="cocktail-name">菠萝经典伏特加魔法</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">巴哈马调酒师的创意之作，菠萝汁为经典伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">青柠汁</span><span class="ingredient">奶油</span><span class="ingredient">枫糖浆</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">草莓泥</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,286" alt="椰林黑朗姆飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴巴多斯
+                    </div>
+                    <h3 class="cocktail-name">椰林黑朗姆飘香</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        黑朗姆
+                    </span>
+
+                    <p class="description">这款巴巴多斯特色鸡尾酒融合了新鲜菠萝汁的香甜与黑朗姆的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">黑朗姆</span><span class="ingredient">香草精</span><span class="ingredient">生姜</span><span class="ingredient">糖浆</span><span class="ingredient">辣椒</span><span class="ingredient">蛋清</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,839" alt="热带经典伏特加日落" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 特立尼达和多巴哥
+                    </div>
+                    <h3 class="cocktail-name">热带经典伏特加日落</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">这款特立尼达和多巴哥鸡尾酒以经典伏特加为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">可可粉</span><span class="ingredient">蛋清</span><span class="ingredient">橙汁</span><span class="ingredient">椰丝</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,821" alt="金标龙舌兰菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 哥斯达黎加
+                    </div>
+                    <h3 class="cocktail-name">金标龙舌兰菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        金标龙舌兰
+                    </span>
+
+                    <p class="description">哥斯达黎加调酒师的创意之作，菠萝汁为金标龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">金标龙舌兰</span><span class="ingredient">柠檬汁</span><span class="ingredient">石榴糖浆</span><span class="ingredient">奶油</span><span class="ingredient">草莓泥</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?summer,450" alt="普利茅斯金菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴拿马
+                    </div>
+                    <h3 class="cocktail-name">普利茅斯金菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        普利茅斯金
+                    </span>
+
+                    <p class="description">源自巴拿马的传统配方，菠萝汁与普利茅斯金完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">普利茅斯金</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">蜂蜜</span><span class="ingredient">薄荷叶</span><span class="ingredient">苏打水</span><span class="ingredient">可可粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,661" alt="热带老汤姆金菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 危地马拉
+                    </div>
+                    <h3 class="cocktail-name">热带老汤姆金菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">这款危地马拉特色鸡尾酒融合了新鲜菠萝汁的香甜与老汤姆金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">香草精</span><span class="ingredient">蜂蜜</span><span class="ingredient">糖浆</span><span class="ingredient">芒果汁</span><span class="ingredient">辣椒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,769" alt="陈年龙舌兰菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 洪都拉斯
+                    </div>
+                    <h3 class="cocktail-name">陈年龙舌兰菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        陈年龙舌兰
+                    </span>
+
+                    <p class="description">这款洪都拉斯鸡尾酒以陈年龙舌兰为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年龙舌兰</span><span class="ingredient">碎冰</span><span class="ingredient">糖浆</span><span class="ingredient">肉桂粉</span><span class="ingredient">草莓泥</span><span class="ingredient">汤力水</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,142" alt="热带卡夏莎日落" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 萨尔瓦多
+                    </div>
+                    <h3 class="cocktail-name">热带卡夏莎日落</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">这款萨尔瓦多特色鸡尾酒融合了新鲜菠萝汁的香甜与卡夏莎的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">糖边</span><span class="ingredient">肉桂粉</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">苏打水</span><span class="ingredient">蜂蜜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,968" alt="热带风情卡夏莎" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 尼加拉瓜
+                    </div>
+                    <h3 class="cocktail-name">热带风情卡夏莎</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">这款尼加拉瓜特色鸡尾酒融合了新鲜菠萝汁的香甜与卡夏莎的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">椰丝</span><span class="ingredient">枫糖浆</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">薄荷叶</span><span class="ingredient">百香果汁</span><span class="ingredient">芒果汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?drink,911" alt="银标龙舌兰菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 厄瓜多尔
+                    </div>
+                    <h3 class="cocktail-name">银标龙舌兰菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        银标龙舌兰
+                    </span>
+
+                    <p class="description">源自厄瓜多尔的传统配方，菠萝汁与银标龙舌兰完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">银标龙舌兰</span><span class="ingredient">石榴糖浆</span><span class="ingredient">迷迭香</span><span class="ingredient">香草精</span><span class="ingredient">辣椒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,187" alt="阳光普利茅斯金菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 玻利维亚
+                    </div>
+                    <h3 class="cocktail-name">阳光普利茅斯金菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        普利茅斯金
+                    </span>
+
+                    <p class="description">玻利维亚调酒师的创意之作，菠萝汁为普利茅斯金增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">普利茅斯金</span><span class="ingredient">奶油</span><span class="ingredient">糖浆</span><span class="ingredient">石榴糖浆</span><span class="ingredient">椰丝</span><span class="ingredient">肉豆蔻粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,697" alt="香料朗姆菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴拉圭
+                    </div>
+                    <h3 class="cocktail-name">香料朗姆菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">这款巴拉圭鸡尾酒以香料朗姆为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">罗勒叶</span><span class="ingredient">石榴糖浆</span><span class="ingredient">草莓泥</span><span class="ingredient">薄荷叶</span><span class="ingredient">蓝柑糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,360" alt="菠萝香槟酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 乌拉圭
+                    </div>
+                    <h3 class="cocktail-name">菠萝香槟酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        香槟
+                    </span>
+
+                    <p class="description">源自乌拉圭的传统配方，菠萝汁与香槟完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香槟</span><span class="ingredient">苏打水</span><span class="ingredient">生姜</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">可可粉</span><span class="ingredient">盐边</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?drink,504" alt="阳光卡夏莎菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 希腊
+                    </div>
+                    <h3 class="cocktail-name">阳光卡夏莎菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">希腊调酒师的创意之作，菠萝汁为卡夏莎增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">糖浆</span><span class="ingredient">苦精</span><span class="ingredient">椰丝</span><span class="ingredient">杏仁糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?drink,318" alt="日本威士忌菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 葡萄牙
+                    </div>
+                    <h3 class="cocktail-name">日本威士忌菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">源自葡萄牙的传统配方，菠萝汁与日本威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">青柠汁</span><span class="ingredient">碎冰</span><span class="ingredient">草莓泥</span><span class="ingredient">迷迭香</span><span class="ingredient">椰丝</span><span class="ingredient">肉桂粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,777" alt="普利茅斯金菠萝梦境" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 荷兰
+                    </div>
+                    <h3 class="cocktail-name">普利茅斯金菠萝梦境</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        普利茅斯金
+                    </span>
+
+                    <p class="description">源自荷兰的传统配方，菠萝汁与普利茅斯金完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">普利茅斯金</span><span class="ingredient">蛋清</span><span class="ingredient">蜂蜜</span><span class="ingredient">芒果汁</span><span class="ingredient">盐边</span><span class="ingredient">苦精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,464" alt="菠萝日本威士忌魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 比利时
+                    </div>
+                    <h3 class="cocktail-name">菠萝日本威士忌魔法</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">这款比利时鸡尾酒以日本威士忌为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">蜂蜜</span><span class="ingredient">椰丝</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,194" alt="菠萝卡夏莎魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 瑞典
+                    </div>
+                    <h3 class="cocktail-name">菠萝卡夏莎魔法</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">瑞典调酒师的创意之作，菠萝汁为卡夏莎增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">百香果汁</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">香蕉泥</span><span class="ingredient">盐边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,114" alt="菠萝马铃薯伏特加酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 挪威
+                    </div>
+                    <h3 class="cocktail-name">菠萝马铃薯伏特加酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        马铃薯伏特加
+                    </span>
+
+                    <p class="description">这款挪威特色鸡尾酒融合了新鲜菠萝汁的香甜与马铃薯伏特加的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">马铃薯伏特加</span><span class="ingredient">百香果汁</span><span class="ingredient">椰丝</span><span class="ingredient">香草精</span><span class="ingredient">苏打水</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">生姜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,947" alt="香料朗姆菠萝莫吉托" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 丹麦
+                    </div>
+                    <h3 class="cocktail-name">香料朗姆菠萝莫吉托</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">源自丹麦的传统配方，菠萝汁与香料朗姆完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">汤力水</span><span class="ingredient">肉桂粉</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">椰丝</span><span class="ingredient">橙汁</span><span class="ingredient">可可粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?summer,131" alt="金色日本威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 芬兰
+                    </div>
+                    <h3 class="cocktail-name">金色日本威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">源自芬兰的传统配方，菠萝汁与日本威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">柠檬汁</span><span class="ingredient">糖浆</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">椰丝</span><span class="ingredient">石榴糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?drink,281" alt="椰林陈年龙舌兰飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 冰岛
+                    </div>
+                    <h3 class="cocktail-name">椰林陈年龙舌兰飘香</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        陈年龙舌兰
+                    </span>
+
+                    <p class="description">冰岛调酒师的创意之作，菠萝汁为陈年龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年龙舌兰</span><span class="ingredient">枫糖浆</span><span class="ingredient">香草精</span><span class="ingredient">草莓泥</span><span class="ingredient">橙汁</span><span class="ingredient">椰丝</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,827" alt="老汤姆金菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 瑞士
+                    </div>
+                    <h3 class="cocktail-name">老汤姆金菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">瑞士调酒师的创意之作，菠萝汁为老汤姆金增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">百香果汁</span><span class="ingredient">迷迭香</span><span class="ingredient">香蕉泥</span><span class="ingredient">椰丝</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,384" alt="椰林陈年龙舌兰飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 奥地利
+                    </div>
+                    <h3 class="cocktail-name">椰林陈年龙舌兰飘香</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        陈年龙舌兰
+                    </span>
+
+                    <p class="description">奥地利调酒师的创意之作，菠萝汁为陈年龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年龙舌兰</span><span class="ingredient">橙汁</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">奶油</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,521" alt="经典伏特加菠萝宾治" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 波兰
+                    </div>
+                    <h3 class="cocktail-name">经典伏特加菠萝宾治</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">波兰调酒师的创意之作，菠萝汁为经典伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">糖浆</span><span class="ingredient">百香果汁</span><span class="ingredient">蜂蜜</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">肉桂粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,178" alt="菠萝经典伏特加酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 捷克
+                    </div>
+                    <h3 class="cocktail-name">菠萝经典伏特加酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">源自捷克的传统配方，菠萝汁与经典伏特加完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">苦精</span><span class="ingredient">碎冰</span><span class="ingredient">可可粉</span><span class="ingredient">薄荷叶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,968" alt="调味伏特加菠萝宾治" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 匈牙利
+                    </div>
+                    <h3 class="cocktail-name">调味伏特加菠萝宾治</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        调味伏特加
+                    </span>
+
+                    <p class="description">匈牙利调酒师的创意之作，菠萝汁为调味伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">调味伏特加</span><span class="ingredient">奶油</span><span class="ingredient">碎冰</span><span class="ingredient">可可粉</span><span class="ingredient">橙汁</span><span class="ingredient">糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,429" alt="菠萝调味伏特加酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 罗马尼亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝调味伏特加酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        调味伏特加
+                    </span>
+
+                    <p class="description">源自罗马尼亚的传统配方，菠萝汁与调味伏特加完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">调味伏特加</span><span class="ingredient">辣椒</span><span class="ingredient">生姜</span><span class="ingredient">石榴糖浆</span><span class="ingredient">枫糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,820" alt="菠萝香料朗姆风暴" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 保加利亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝香料朗姆风暴</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">源自保加利亚的传统配方，菠萝汁与香料朗姆完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">薄荷叶</span><span class="ingredient">柠檬汁</span><span class="ingredient">杏仁糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 橙片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,176" alt="菠萝伦敦干金酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 乌克兰
+                    </div>
+                    <h3 class="cocktail-name">菠萝伦敦干金酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        伦敦干金
+                    </span>
+
+                    <p class="description">源自乌克兰的传统配方，菠萝汁与伦敦干金完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">伦敦干金</span><span class="ingredient">糖浆</span><span class="ingredient">青柠汁</span><span class="ingredient">糖边</span><span class="ingredient">碎冰</span><span class="ingredient">椰奶</span><span class="ingredient">石榴糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,434" alt="热带白兰地菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 白俄罗斯
+                    </div>
+                    <h3 class="cocktail-name">热带白兰地菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        白兰地
+                    </span>
+
+                    <p class="description">白俄罗斯调酒师的创意之作，菠萝汁为白兰地增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">白兰地</span><span class="ingredient">椰奶</span><span class="ingredient">青柠汁</span><span class="ingredient">橙汁</span><span class="ingredient">迷迭香</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,558" alt="热带爱尔兰威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 立陶宛
+                    </div>
+                    <h3 class="cocktail-name">热带爱尔兰威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        爱尔兰威士忌
+                    </span>
+
+                    <p class="description">源自立陶宛的传统配方，菠萝汁与爱尔兰威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">爱尔兰威士忌</span><span class="ingredient">石榴糖浆</span><span class="ingredient">薄荷叶</span><span class="ingredient">可可粉</span><span class="ingredient">生姜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,105" alt="海滩陈年龙舌兰菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 拉脱维亚
+                    </div>
+                    <h3 class="cocktail-name">海滩陈年龙舌兰菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        陈年龙舌兰
+                    </span>
+
+                    <p class="description">拉脱维亚调酒师的创意之作，菠萝汁为陈年龙舌兰增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">陈年龙舌兰</span><span class="ingredient">蛋清</span><span class="ingredient">草莓泥</span><span class="ingredient">青柠汁</span><span class="ingredient">苏打水</span><span class="ingredient">迷迭香</span><span class="ingredient">糖边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,951" alt="老汤姆金菠萝宾治" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 爱沙尼亚
+                    </div>
+                    <h3 class="cocktail-name">老汤姆金菠萝宾治</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">这款爱沙尼亚特色鸡尾酒融合了新鲜菠萝汁的香甜与老汤姆金的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">可可粉</span><span class="ingredient">盐边</span><span class="ingredient">青柠汁</span><span class="ingredient">生姜</span><span class="ingredient">椰丝</span><span class="ingredient">姜汁啤酒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,532" alt="菠萝荷兰金酒风暴" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 克罗地亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝荷兰金酒风暴</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">这款克罗地亚鸡尾酒以荷兰金酒为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">糖浆</span><span class="ingredient">糖边</span><span class="ingredient">肉桂粉</span><span class="ingredient">青柠汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?drink,828" alt="海滩烧酒菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 塞尔维亚
+                    </div>
+                    <h3 class="cocktail-name">海滩烧酒菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        烧酒
+                    </span>
+
+                    <p class="description">塞尔维亚调酒师的创意之作，菠萝汁为烧酒增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">烧酒</span><span class="ingredient">百香果汁</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">肉桂粉</span><span class="ingredient">盐边</span><span class="ingredient">石榴糖浆</span><span class="ingredient">橙汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,380" alt="海滩香料朗姆菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 斯洛文尼亚
+                    </div>
+                    <h3 class="cocktail-name">海滩香料朗姆菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        香料朗姆
+                    </span>
+
+                    <p class="description">源自斯洛文尼亚的传统配方，菠萝汁与香料朗姆完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香料朗姆</span><span class="ingredient">蜂蜜</span><span class="ingredient">椰丝</span><span class="ingredient">罗勒叶</span><span class="ingredient">橙汁</span><span class="ingredient">迷迭香</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,307" alt="经典伏特加菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 斯洛伐克
+                    </div>
+                    <h3 class="cocktail-name">经典伏特加菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">斯洛伐克调酒师的创意之作，菠萝汁为经典伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">苦精</span><span class="ingredient">糖边</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">枫糖浆</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">椰奶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,818" alt="菠萝小麦伏特加魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 以色列
+                    </div>
+                    <h3 class="cocktail-name">菠萝小麦伏特加魔法</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        小麦伏特加
+                    </span>
+
+                    <p class="description">这款以色列特色鸡尾酒融合了新鲜菠萝汁的香甜与小麦伏特加的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">小麦伏特加</span><span class="ingredient">迷迭香</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">苏打水</span><span class="ingredient">橙汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,882" alt="老汤姆金菠萝莫吉托" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 黎巴嫩
+                    </div>
+                    <h3 class="cocktail-name">老汤姆金菠萝莫吉托</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        老汤姆金
+                    </span>
+
+                    <p class="description">黎巴嫩调酒师的创意之作，菠萝汁为老汤姆金增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">老汤姆金</span><span class="ingredient">糖浆</span><span class="ingredient">苏打水</span><span class="ingredient">苦精</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">蓝柑糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,556" alt="海滩经典伏特加菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 约旦
+                    </div>
+                    <h3 class="cocktail-name">海滩经典伏特加菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        经典伏特加
+                    </span>
+
+                    <p class="description">这款约旦鸡尾酒以经典伏特加为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">经典伏特加</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">青柠汁</span><span class="ingredient">盐边</span><span class="ingredient">香蕉泥</span><span class="ingredient">石榴糖浆</span><span class="ingredient">奶油</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,144" alt="菠萝波本威士忌魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 阿拉伯联合酋长国
+                    </div>
+                    <h3 class="cocktail-name">菠萝波本威士忌魔法</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        波本威士忌
+                    </span>
+
+                    <p class="description">源自阿拉伯联合酋长国的传统配方，菠萝汁与波本威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">波本威士忌</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">蜂蜜</span><span class="ingredient">糖浆</span><span class="ingredient">芒果汁</span><span class="ingredient">青柠汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,406" alt="苏格兰威士忌菠萝莫吉托" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 卡塔尔
+                    </div>
+                    <h3 class="cocktail-name">苏格兰威士忌菠萝莫吉托</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        苏格兰威士忌
+                    </span>
+
+                    <p class="description">这款卡塔尔鸡尾酒以苏格兰威士忌为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">苏格兰威士忌</span><span class="ingredient">盐边</span><span class="ingredient">糖浆</span><span class="ingredient">可可粉</span><span class="ingredient">香蕉泥</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,970" alt="菠萝烧酒风暴" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 阿曼
+                    </div>
+                    <h3 class="cocktail-name">菠萝烧酒风暴</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        烧酒
+                    </span>
+
+                    <p class="description">这款阿曼鸡尾酒以烧酒为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">烧酒</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">椰奶</span><span class="ingredient">蜂蜜</span><span class="ingredient">百香果汁</span><span class="ingredient">肉桂粉</span><span class="ingredient">杏仁糖浆</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,362" alt="阳光波本威士忌菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 科威特
+                    </div>
+                    <h3 class="cocktail-name">阳光波本威士忌菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        波本威士忌
+                    </span>
+
+                    <p class="description">这款科威特特色鸡尾酒融合了新鲜菠萝汁的香甜与波本威士忌的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">波本威士忌</span><span class="ingredient">盐边</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">苦精</span><span class="ingredient">罗勒叶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?summer,835" alt="菠萝调味伏特加酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴林
+                    </div>
+                    <h3 class="cocktail-name">菠萝调味伏特加酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        调味伏特加
+                    </span>
+
+                    <p class="description">这款巴林特色鸡尾酒融合了新鲜菠萝汁的香甜与调味伏特加的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">调味伏特加</span><span class="ingredient">椰丝</span><span class="ingredient">迷迭香</span><span class="ingredient">碎冰</span><span class="ingredient">椰奶</span><span class="ingredient">苏打水</span><span class="ingredient">盐边</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,644" alt="热带风情日本威士忌" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 新西兰
+                    </div>
+                    <h3 class="cocktail-name">热带风情日本威士忌</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">源自新西兰的传统配方，菠萝汁与日本威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">苦精</span><span class="ingredient">糖浆</span><span class="ingredient">可可粉</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">奶油</span><span class="ingredient">姜汁啤酒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,787" alt="椰林荷兰金酒飘香" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 斐济
+                    </div>
+                    <h3 class="cocktail-name">椰林荷兰金酒飘香</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">源自斐济的传统配方，菠萝汁与荷兰金酒完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">罗勒叶</span><span class="ingredient">苏打水</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">汤力水</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">葡萄柚汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?summer,554" alt="海滩白兰地菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 萨摩亚
+                    </div>
+                    <h3 class="cocktail-name">海滩白兰地菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        白兰地
+                    </span>
+
+                    <p class="description">这款萨摩亚鸡尾酒以白兰地为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">白兰地</span><span class="ingredient">碎冰</span><span class="ingredient">苏打水</span><span class="ingredient">可可粉</span><span class="ingredient">蛋清</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">生姜</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,709" alt="海滩香槟菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 汤加
+                    </div>
+                    <h3 class="cocktail-name">海滩香槟菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        香槟
+                    </span>
+
+                    <p class="description">汤加调酒师的创意之作，菠萝汁为香槟增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">香槟</span><span class="ingredient">盐边</span><span class="ingredient">辣椒</span><span class="ingredient">香蕉泥</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">橙汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,113" alt="菠萝日本威士忌魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴布亚新几内亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝日本威士忌魔法</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">源自巴布亚新几内亚的传统配方，菠萝汁与日本威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">盐边</span><span class="ingredient">青柠汁</span><span class="ingredient">生姜</span><span class="ingredient">姜汁啤酒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 椰丝</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,274" alt="菠萝清酒魔法" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 斯里兰卡
+                    </div>
+                    <h3 class="cocktail-name">菠萝清酒魔法</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        清酒
+                    </span>
+
+                    <p class="description">斯里兰卡调酒师的创意之作，菠萝汁为清酒增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">清酒</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">杏仁糖浆</span><span class="ingredient">盐边</span><span class="ingredient">可可粉</span><span class="ingredient">椰奶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="其他">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,326" alt="热带风情卡夏莎" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 孟加拉国
+                    </div>
+                    <h3 class="cocktail-name">热带风情卡夏莎</h3>
+                    <span class="spirit-badge" style="background-color: #9370DB20; color: #9370DB; border: 1px solid #9370DB50;">
+                        卡夏莎
+                    </span>
+
+                    <p class="description">源自孟加拉国的传统配方，菠萝汁与卡夏莎完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">卡夏莎</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">盐边</span><span class="ingredient">苦精</span><span class="ingredient">橙汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,967" alt="菠萝荷兰金酒狂欢" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 巴基斯坦
+                    </div>
+                    <h3 class="cocktail-name">菠萝荷兰金酒狂欢</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">这款巴基斯坦特色鸡尾酒融合了新鲜菠萝汁的香甜与荷兰金酒的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">香蕉泥</span><span class="ingredient">生姜</span><span class="ingredient">汤力水</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">肉桂粉</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 菠萝角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="朗姆酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,430" alt="金色黑朗姆菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 阿富汗
+                    </div>
+                    <h3 class="cocktail-name">金色黑朗姆菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #D4AF3720; color: #D4AF37; border: 1px solid #D4AF3750;">
+                        黑朗姆
+                    </span>
+
+                    <p class="description">阿富汗调酒师的创意之作，菠萝汁为黑朗姆增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">黑朗姆</span><span class="ingredient">罗勒叶</span><span class="ingredient">肉桂粉</span><span class="ingredient">生姜</span><span class="ingredient">椰奶</span><span class="ingredient">蛋清</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,68" alt="爱尔兰威士忌菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 伊拉克
+                    </div>
+                    <h3 class="cocktail-name">爱尔兰威士忌菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        爱尔兰威士忌
+                    </span>
+
+                    <p class="description">源自伊拉克的传统配方，菠萝汁与爱尔兰威士忌完美融合，带来热带风情</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">爱尔兰威士忌</span><span class="ingredient">罗勒叶</span><span class="ingredient">姜汁啤酒</span><span class="ingredient">枫糖浆</span><span class="ingredient">辣椒</span><span class="ingredient">椰奶</span><span class="ingredient">香草精</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 马天尼杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="龙舌兰">
+                <img src="https://source.unsplash.com/random/600x400/?summer,123" alt="菠萝金标龙舌兰酸酒" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 叙利亚
+                    </div>
+                    <h3 class="cocktail-name">菠萝金标龙舌兰酸酒</h3>
+                    <span class="spirit-badge" style="background-color: #FFD70020; color: #FFD700; border: 1px solid #FFD70050;">
+                        金标龙舌兰
+                    </span>
+
+                    <p class="description">这款叙利亚特色鸡尾酒融合了新鲜菠萝汁的香甜与金标龙舌兰的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">金标龙舌兰</span><span class="ingredient">草莓泥</span><span class="ingredient">盐边</span><span class="ingredient">薄荷叶</span><span class="ingredient">椰丝</span><span class="ingredient">葡萄柚汁</span><span class="ingredient">汤力水</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 高球杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 青柠角</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?drink,779" alt="荷兰金酒菠萝沙滩" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 也门
+                    </div>
+                    <h3 class="cocktail-name">荷兰金酒菠萝沙滩</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">也门调酒师的创意之作，菠萝汁为荷兰金酒增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">椰丝</span><span class="ingredient">辣椒</span><span class="ingredient">盐边</span><span class="ingredient">薄荷叶</span><span class="ingredient">柠檬汁</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 飓风杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 烤菠萝片</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="威士忌">
+                <img src="https://source.unsplash.com/random/600x400/?pineapple,731" alt="热带风情日本威士忌" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 阿尔及利亚
+                    </div>
+                    <h3 class="cocktail-name">热带风情日本威士忌</h3>
+                    <span class="spirit-badge" style="background-color: #8B451320; color: #8B4513; border: 1px solid #8B451350;">
+                        日本威士忌
+                    </span>
+
+                    <p class="description">这款阿尔及利亚特色鸡尾酒融合了新鲜菠萝汁的香甜与日本威士忌的独特风味</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">日本威士忌</span><span class="ingredient">肉桂粉</span><span class="ingredient">汤力水</span><span class="ingredient">百香果汁</span><span class="ingredient">肉豆蔻粉</span><span class="ingredient">石榴糖浆</span><span class="ingredient">辣椒</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 高度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="金酒">
+                <img src="https://source.unsplash.com/random/600x400/?tropical,854" alt="荷兰金酒菠萝日出" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 突尼斯
+                    </div>
+                    <h3 class="cocktail-name">荷兰金酒菠萝日出</h3>
+                    <span class="spirit-badge" style="background-color: #98FF9820; color: #98FF98; border: 1px solid #98FF9850;">
+                        荷兰金酒
+                    </span>
+
+                    <p class="description">这款突尼斯鸡尾酒以荷兰金酒为基酒，搭配鲜榨菠萝汁，口感平衡</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">荷兰金酒</span><span class="ingredient">芒果汁</span><span class="ingredient">可可粉</span><span class="ingredient">蓝柑糖浆</span><span class="ingredient">柠檬汁</span><span class="ingredient">罗勒叶</span><span class="ingredient">椰奶</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 柯林斯杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 薄荷叶</span>
+                        <span><i class="fas fa-fire"></i> 低度</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cocktail-card" data-spirit="伏特加">
+                <img src="https://source.unsplash.com/random/600x400/?cocktail,518" alt="金色马铃薯伏特加菠萝" class="cocktail-image" 
+                     onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop'">
+                <div class="card-content">
+                    <div class="country-name">
+                        <i class="fas fa-flag"></i> 利比亚
+                    </div>
+                    <h3 class="cocktail-name">金色马铃薯伏特加菠萝</h3>
+                    <span class="spirit-badge" style="background-color: #FFFFFF20; color: #FFFFFF; border: 1px solid #FFFFFF50;">
+                        马铃薯伏特加
+                    </span>
+
+                    <p class="description">利比亚调酒师的创意之作，菠萝汁为马铃薯伏特加增添了清新的果香</p>
+
+                    <div class="ingredients">
+        <span class="ingredient">鲜榨菠萝汁</span><span class="ingredient">马铃薯伏特加</span><span class="ingredient">石榴糖浆</span><span class="ingredient">枫糖浆</span><span class="ingredient">香草精</span><span class="ingredient">香蕉泥</span>
+                    </div>
+
+                    <div class="details">
+                        <span><i class="fas fa-glass-whiskey"></i> 岩石杯</span>
+                        <span><i class="fas fa-pepper-hot"></i> 樱桃</span>
+                        <span><i class="fas fa-fire"></i> 中度</span>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <footer>
+            <p>© 2026 全球鸡尾酒文化数据库 | 本页面包含100个国家100款菠萝汁鸡尾酒</p>
+            <p><i class="fas fa-info-circle"></i> 数据生成时间: 2026年01月18日 13:45</p>
+            <p><i class="fas fa-cocktail"></i> 调酒提示：使用新鲜菠萝汁能显著提升鸡尾酒口感</p>
+        </footer>
+    </div>
+
+    <script>
+        // 筛选功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const cocktailCards = document.querySelectorAll('.cocktail-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 更新按钮状态
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const filter = this.dataset.filter;
+
+                    // 筛选卡片
+                    cocktailCards.forEach(card => {
+                        if (filter === 'all' || card.dataset.spirit === filter) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // 图片加载失败处理
+            const images = document.querySelectorAll('.cocktail-image');
+            images.forEach(img => {
+                img.addEventListener('error', function() {
+                    if (!this.src.includes('unsplash.com/photo-1575023782549')) {
+                        this.src = 'https://images.unsplash.com/photo-1575023782549-62ca0d244b39?w=600&h=400&fit=crop';
+                    }
+                });
+            });
+
+            // 初始动画
+            setTimeout(() => {
+                cocktailCards.forEach((card, index) => {
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 50);
+                });
+            }, 100);
+
+            // 打印功能
+            window.printPage = function() {
+                window.print();
+            };
+        });
+    </script>
+</body>
+</html>

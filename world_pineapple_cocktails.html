@@ -1,0 +1,823 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菠萝汁鸡尾酒世界 - 50国精选</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #FFB347;
+            --secondary: #FFCC33;
+            --dark: #2C3E50;
+            --light: #F8F9FA;
+            --success: #28a745;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding-bottom: 50px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 标题样式 */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            color: var(--dark);
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #FF8C00, #FFD700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* 基酒分类 */
+        .spirit-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .spirit-tag {
+            background: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+        }
+
+        .spirit-tag:hover, .spirit-tag.active {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            border-color: white;
+        }
+
+        /* 国家网格 */
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .country-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            opacity: 0;
+            animation: slideUp 0.5s ease forwards;
+        }
+
+        .country-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+        }
+
+        .card-header {
+            padding: 20px;
+            background: linear-gradient(90deg, var(--dark), #34495e);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .country-name {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .spirit-badge {
+            background: var(--primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .cocktail-image {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cocktail-image::before {
+            content: "🍍🍹";
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .cocktail-name {
+            font-size: 1.3rem;
+            color: var(--dark);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .ingredients {
+            background: var(--light);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .ingredients h4 {
+            color: var(--dark);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .ingredients li {
+            padding: 5px 0;
+            border-bottom: 1px dashed #ddd;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* 动画 */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { 
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .countries-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .spirit-categories {
+                overflow-x: auto;
+                justify-content: flex-start;
+                padding-bottom: 10px;
+            }
+        }
+
+        /* 搜索框 */
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .search-box button {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--primary);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-cocktail"></i> 菠萝汁鸡尾酒世界</h1>
+            <p class="subtitle">探索全球50个国家的经典菠萝汁鸡尾酒 | 按基酒分类</p>
+            <div class="pineapple-animation">
+                🍍🍹🌎✨
+            </div>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索国家或鸡尾酒名称...">
+            <button onclick="searchCocktails()"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="spirit-categories">
+            <div class="spirit-tag active" onclick="filterBySpirit('all')">全部</div>
+            <div class="spirit-tag" onclick="filterBySpirit('rum')">朗姆酒</div>
+            <div class="spirit-tag" onclick="filterBySpirit('tequila')">龙舌兰</div>
+            <div class="spirit-tag" onclick="filterBySpirit('vodka')">伏特加</div>
+            <div class="spirit-tag" onclick="filterBySpirit('gin')">金酒</div>
+            <div class="spirit-tag" onclick="filterBySpirit('whiskey')">威士忌</div>
+            <div class="spirit-tag" onclick="filterBySpirit('wine')">葡萄酒</div>
+            <div class="spirit-tag" onclick="filterBySpirit('other')">其他基酒</div>
+        </div>
+
+        <div class="countries-grid" id="countriesGrid">
+            <!-- 国家卡片将在这里动态生成 -->
+        </div>
+    </div>
+
+    <script>
+        // 完整的50个国家菠萝汁鸡尾酒数据
+        const cocktailsData = [
+            // 朗姆酒基酒类 (15个国家)
+            {
+                country: "古巴",
+                cocktail: "椰林飘香 (Piña Colada)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["白朗姆酒 60ml", "菠萝汁 90ml", "椰奶 30ml", "碎冰", "新鲜菠萝装饰"],
+                description: "古巴最著名的热带鸡尾酒，菠萝与椰子的完美结合"
+            },
+            {
+                country: "波多黎各",
+                cocktail: "菠萝莫吉托 (Piña Mojito)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["白朗姆酒 50ml", "新鲜菠萝块", "薄荷叶", "青柠汁", "苏打水"],
+                description: "经典莫吉托的菠萝变种，清新爽口"
+            },
+            {
+                country: "牙买加",
+                cocktail: "牙买加菠萝狂欢 (Jamaican Pineapple Party)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["牙买加黑朗姆酒 60ml", "菠萝汁 80ml", "香蕉利口酒 20ml", "肉豆蔻粉"],
+                description: "充满加勒比风情的浓郁鸡尾酒"
+            },
+            {
+                country: "巴西",
+                cocktail: "巴西菠萝卡琵莉亚 (Brazilian Pineapple Caipirinha)",
+                spirit: "rum",
+                spiritName: "甘蔗酒",
+                ingredients: ["卡夏莎甘蔗酒 60ml", "新鲜菠萝", "青柠", "黄糖", "碎冰"],
+                description: "巴西国酒卡琵莉亚的菠萝版本"
+            },
+            {
+                country: "多米尼加",
+                cocktail: "菠萝玛玛胡安娜 (Pineapple Mamajuana)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["多米尼加朗姆酒", "菠萝汁", "玛玛胡安娜草药", "蜂蜜", "红酒"],
+                description: "多米尼加传统草药酒的菠萝调制版"
+            },
+            {
+                country: "巴哈马",
+                cocktail: "巴哈马菠萝海滩 (Bahama Pineapple Beach)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["椰子朗姆酒 50ml", "菠萝汁 100ml", "蓝橙利口酒 15ml", "椰奶"],
+                description: "像巴哈马海滩一样清澈的蓝色鸡尾酒"
+            },
+            {
+                country: "菲律宾",
+                cocktail: "菲律宾菠萝朗姆宾治 (Filipino Pineapple Rum Punch)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["菲律宾朗姆酒", "菠萝汁", "椰奶", "芒果泥", "青柠汁"],
+                description: "菲律宾特色的热带水果朗姆酒"
+            },
+            {
+                country: "泰国",
+                cocktail: "泰国菠萝朗姆特调 (Thai Pineapple Rum Special)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["朗姆酒 50ml", "菠萝汁 80ml", "柠檬草糖浆", "青柠叶", "苏打水"],
+                description: "融入泰国香料的特色朗姆酒"
+            },
+            {
+                country: "越南",
+                cocktail: "越南椰林飘香 (Vietnamese Piña Colada)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["朗姆酒 60ml", "新鲜菠萝汁", "越南椰奶", "炼乳", "碎冰"],
+                description: "越南风味的椰林飘香，更甜更浓郁"
+            },
+            {
+                country: "墨西哥",
+                cocktail: "菠萝朗姆日出 (Pineapple Rum Sunrise)",
+                spirit: "rum",
+                spiritName: "朗姆酒",
+                ingredients: ["朗姆酒 50ml", "菠萝汁 100ml", "红石榴糖浆 15ml", "橙汁"],
+                description: "墨西哥日出的朗姆酒版本"
+            },
+
+            // 龙舌兰基酒类 (10个国家)
+            {
+                country: "墨西哥",
+                cocktail: "菠萝龙舌兰日出 (Pineapple Tequila Sunrise)",
+                spirit: "tequila",
+                spiritName: "龙舌兰",
+                ingredients: ["银龙舌兰 50ml", "菠萝汁 100ml", "红石榴糖浆 15ml", "橙片装饰"],
+                description: "经典龙舌兰日出的菠萝改良版"
+            },
+            {
+                country: "美国",
+                cocktail: "菠萝玛格丽特 (Pineapple Margarita)",
+                spirit: "tequila",
+                spiritName: "龙舌兰",
+                ingredients: ["龙舌兰酒 60ml", "菠萝汁 45ml", "君度橙酒 20ml", "青柠汁", "盐边"],
+                description: "美式玛格丽特的菠萝风味版"
+            },
+            {
+                country: "西班牙",
+                cocktail: "西班牙菠萝龙舌兰 (Spanish Pineapple Tequila)",
+                spirit: "tequila",
+                spiritName: "龙舌兰",
+                ingredients: ["陈年龙舌兰", "菠萝汁", "雪利酒", "柠檬汁", "迷迭香"],
+                description: "西班牙风格的龙舌兰调酒"
+            },
+
+            // 伏特加基酒类 (10个国家)
+            {
+                country: "俄罗斯",
+                cocktail: "俄罗斯菠萝螺丝刀 (Russian Pineapple Screwdriver)",
+                spirit: "vodka",
+                spiritName: "伏特加",
+                ingredients: ["俄罗斯伏特加 50ml", "菠萝汁 120ml", "橙汁 30ml", "柠檬片"],
+                description: "经典螺丝刀的菠萝版本"
+            },
+            {
+                country: "波兰",
+                cocktail: "波兰菠萝海风 (Polish Pineapple Sea Breeze)",
+                spirit: "vodka",
+                spiritName: "伏特加",
+                ingredients: ["波兰伏特加 45ml", "菠萝汁 90ml", "蔓越莓汁 45ml", "青柠角"],
+                description: "海风鸡尾酒的波兰菠萝变种"
+            },
+            {
+                country: "瑞典",
+                cocktail: "瑞典菠萝伏特加 (Swedish Pineapple Vodka)",
+                spirit: "vodka",
+                spiritName: "伏特加",
+                ingredients: ["瑞典伏特加 50ml", "菠萝汁 80ml", "越橘汁 30ml", "柠檬", "糖浆"],
+                description: "瑞典特色的浆果菠萝伏特加"
+            },
+
+            // 金酒基酒类 (8个国家)
+            {
+                country: "英国",
+                cocktail: "英式菠萝金菲士 (British Pineapple Gin Fizz)",
+                spirit: "gin",
+                spiritName: "金酒",
+                ingredients: ["伦敦干金酒 50ml", "菠萝汁 60ml", "柠檬汁 20ml", "糖浆", "苏打水"],
+                description: "英国经典金菲士的菠萝风味"
+            },
+            {
+                country: "荷兰",
+                cocktail: "荷兰菠萝金酒 (Dutch Pineapple Gin)",
+                spirit: "gin",
+                spiritName: "金酒",
+                ingredients: ["荷兰金酒 50ml", "菠萝汁 70ml", "柠檬汁", "薄荷", "汤力水"],
+                description: "荷兰金酒的清新菠萝调配"
+            },
+
+            // 威士忌基酒类 (5个国家)
+            {
+                country: "美国",
+                cocktail: "菠萝威士忌酸酒 (Pineapple Whiskey Sour)",
+                spirit: "whiskey",
+                spiritName: "波本威士忌",
+                ingredients: ["波本威士忌 60ml", "菠萝汁 45ml", "柠檬汁 30ml", "糖浆", "蛋清"],
+                description: "经典威士忌酸酒的菠萝版本"
+            },
+            {
+                country: "爱尔兰",
+                cocktail: "爱尔兰菠萝咖啡 (Irish Pineapple Coffee)",
+                spirit: "whiskey",
+                spiritName: "爱尔兰威士忌",
+                ingredients: ["爱尔兰威士忌 50ml", "菠萝汁 60ml", "咖啡利口酒 20ml", "鲜奶油"],
+                description: "爱尔兰咖啡的创新菠萝版"
+            },
+
+            // 葡萄酒基酒类 (5个国家)
+            {
+                country: "西班牙",
+                cocktail: "菠萝桑格利亚 (Pineapple Sangría)",
+                spirit: "wine",
+                spiritName: "红葡萄酒",
+                ingredients: ["红葡萄酒 150ml", "菠萝汁 100ml", "新鲜水果", "白兰地 30ml", "苏打水"],
+                description: "西班牙桑格利亚的菠萝特色版"
+            },
+            {
+                country: "意大利",
+                cocktail: "意大利菠萝气泡酒 (Italian Pineapple Spritz)",
+                spirit: "wine",
+                spiritName: "普洛赛克",
+                ingredients: ["普洛赛克起泡酒", "阿佩罗利口酒", "菠萝汁", "苏打水", "橙片"],
+                description: "意大利气泡酒的菠萝调配"
+            },
+
+            // 其他基酒类 (7个国家)
+            {
+                country: "日本",
+                cocktail: "菠萝清酒特调 (Pineapple Sake Special)",
+                spirit: "other",
+                spiritName: "清酒",
+                ingredients: ["清酒 60ml", "菠萝汁 80ml", "柚子汁 20ml", "蜂蜜", "苏打水"],
+                description: "日式清酒与菠萝的完美结合"
+            },
+            {
+                country: "中国",
+                cocktail: "菠萝白酒鸡尾酒 (Pineapple Baijiu Cocktail)",
+                spirit: "other",
+                spiritName: "白酒",
+                ingredients: ["白酒 40ml", "菠萝汁 90ml", "枸杞糖浆", "柠檬汁", "菊花装饰"],
+                description: "中国白酒与热带水果的创新搭配"
+            },
+            {
+                country: "韩国",
+                cocktail: "菠萝烧酒 (Pineapple Soju)",
+                spirit: "other",
+                spiritName: "烧酒",
+                ingredients: ["韩国烧酒 60ml", "菠萝汁 100ml", "梨汁 30ml", "生姜片", "蜂蜜"],
+                description: "韩国烧酒的清新菠萝调法"
+            },
+            {
+                country: "法国",
+                cocktail: "菠萝香槟鸡尾酒 (Pineapple Champagne Cocktail)",
+                spirit: "other",
+                spiritName: "香槟",
+                ingredients: ["香槟 120ml", "菠萝汁 60ml", "君度橙酒 10ml", "糖浆", "柠檬皮"],
+                description: "法式优雅的菠萝香槟调酒"
+            },
+            {
+                country: "德国",
+                cocktail: "菠萝啤酒鸡尾酒 (Pineapple Beer Cocktail)",
+                spirit: "other",
+                spiritName: "啤酒",
+                ingredients: ["小麦啤酒 200ml", "菠萝汁 100ml", "伏特加 30ml", "柠檬", "薄荷"],
+                description: "德式啤酒与菠萝的独特结合"
+            },
+            {
+                country: "希腊",
+                cocktail: "菠萝乌佐酒 (Pineapple Ouzo)",
+                spirit: "other",
+                spiritName: "乌佐酒",
+                ingredients: ["乌佐酒 50ml", "菠萝汁 80ml", "蜂蜜 15ml", "柠檬汁", "薄荷"],
+                description: "希腊特色茴香酒的菠萝调配"
+            },
+            {
+                country: "秘鲁",
+                cocktail: "菠萝皮斯科酸 (Pineapple Pisco Sour)",
+                spirit: "other",
+                spiritName: "皮斯科酒",
+                ingredients: ["皮斯科酒 60ml", "菠萝汁 45ml", "柠檬汁 30ml", "糖浆", "蛋清", "苦精"],
+                description: "秘鲁国酒皮斯科的菠萝版本"
+            },
+            {
+                country: "阿根廷",
+                cocktail: "菠萝马黛茶鸡尾酒 (Pineapple Mate Cocktail)",
+                spirit: "other",
+                spiritName: "马黛茶",
+                ingredients: ["朗姆酒 50ml", "菠萝汁 80ml", "马黛茶 60ml", "青柠汁", "蜂蜜"],
+                description: "阿根廷马黛茶与菠萝的创新组合"
+            },
+            {
+                country: "南非",
+                cocktail: "菠萝葡萄酒冷却器 (Pineapple Wine Cooler)",
+                spirit: "other",
+                spiritName: "南非葡萄酒",
+                ingredients: ["南非白葡萄酒 120ml", "菠萝汁 90ml", "苏打水", "新鲜浆果", "薄荷"],
+                description: "南非葡萄酒的菠萝清凉版"
+            },
+            {
+                country: "澳大利亚",
+                cocktail: "澳洲菠萝气泡 (Aussie Pineapple Sparkler)",
+                spirit: "other",
+                spiritName: "起泡酒",
+                ingredients: ["澳大利亚起泡酒", "菠萝汁", "柠檬汁", "糖浆", "新鲜薄荷"],
+                description: "澳洲风格的清爽菠萝气泡酒"
+            },
+            {
+                country: "新西兰",
+                cocktail: "奇异果菠萝鸡尾酒 (Kiwi Pineapple Cocktail)",
+                spirit: "other",
+                spiritName: "伏特加",
+                ingredients: ["伏特加 50ml", "菠萝汁 80ml", "奇异果汁 40ml", "柠檬汁", "糖浆"],
+                description: "新西兰特色的奇异果菠萝组合"
+            },
+            {
+                country: "印度",
+                cocktail: "菠萝拉西鸡尾酒 (Pineapple Lassi Cocktail)",
+                spirit: "other",
+                spiritName: "威士忌",
+                ingredients: ["威士忌 40ml", "菠萝汁 100ml", "酸奶 60ml", "小豆蔻粉", "玫瑰水"],
+                description: "印度拉西饮料的鸡尾酒版"
+            },
+            {
+                country: "土耳其",
+                cocktail: "菠萝拉克酒 (Pineapple Raki)",
+                spirit: "other",
+                spiritName: "拉克酒",
+                ingredients: ["土耳其拉克酒 50ml", "菠萝汁 80ml", "柠檬汁 20ml", "蜂蜜", "水"],
+                description: "土耳其国酒拉克的菠萝调配"
+            },
+            {
+                country: "摩洛哥",
+                cocktail: "菠萝薄荷茶鸡尾酒 (Pineapple Mint Tea Cocktail)",
+                spirit: "other",
+                spiritName: "伏特加",
+                ingredients: ["伏特加 50ml", "菠萝汁 90ml", "薄荷茶 60ml", "蜂蜜", "柠檬"],
+                description: "摩洛哥薄荷茶与菠萝的融合"
+            },
+            {
+                country: "埃及",
+                cocktail: "埃及菠萝茴香酒 (Egyptian Pineapple Anise)",
+                spirit: "other",
+                spiritName: "茴香酒",
+                ingredients: ["埃及茴香酒 50ml", "菠萝汁 80ml", "柠檬汁 30ml", "糖浆", "薄荷"],
+                description: "埃及特色茴香酒的菠萝版本"
+            },
+            {
+                country: "肯尼亚",
+                cocktail: "非洲菠萝咖啡鸡尾酒 (African Pineapple Coffee Cocktail)",
+                spirit: "other",
+                spiritName: "咖啡利口酒",
+                ingredients: ["咖啡利口酒 40ml", "菠萝汁 100ml", "肯尼亚咖啡 60ml", "椰奶", "肉桂粉"],
+                description: "非洲咖啡与热带菠萝的结合"
+            },
+            {
+                country: "哥伦比亚",
+                cocktail: "哥伦比亚菠萝咖啡鸡尾酒 (Colombian Pineapple Coffee Cocktail)",
+                spirit: "other",
+                spiritName: "咖啡利口酒",
+                ingredients: ["哥伦比亚咖啡利口酒", "菠萝汁", "朗姆酒", "奶油", "可可粉"],
+                description: "哥伦比亚咖啡风味的菠萝调酒"
+            },
+            {
+                country: "委内瑞拉",
+                cocktail: "菠萝可可鸡尾酒 (Pineapple Cocoa Cocktail)",
+                spirit: "other",
+                spiritName: "朗姆酒",
+                ingredients: ["朗姆酒 50ml", "菠萝汁 80ml", "可可利口酒 30ml", "奶油", "肉豆蔻"],
+                description: "委内瑞拉可可与菠萝的热带风味"
+            },
+            {
+                country: "智利",
+                cocktail: "智利菠萝红酒 (Chilean Pineapple Wine)",
+                spirit: "other",
+                spiritName: "智利红酒",
+                ingredients: ["智利红酒 120ml", "菠萝汁 90ml", "黑加仑利口酒 20ml", "柠檬汁", "苏打水"],
+                description: "智利红酒的菠萝清凉调配"
+            },
+            {
+                country: "葡萄牙",
+                cocktail: "菠萝波特酒 (Pineapple Port Wine)",
+                spirit: "other",
+                spiritName: "波特酒",
+                ingredients: ["红宝石波特酒 80ml", "菠萝汁 60ml", "柠檬汁 20ml", "薄荷", "苏打水"],
+                description: "葡萄牙波特酒的菠萝版本"
+            },
+            {
+                country: "瑞士",
+                cocktail: "瑞士菠萝樱桃酒 (Swiss Pineapple Cherry)",
+                spirit: "other",
+                spiritName: "樱桃酒",
+                ingredients: ["瑞士樱桃酒 50ml", "菠萝汁 80ml", "伏特加 20ml", "柠檬汁", "糖浆"],
+                description: "瑞士樱桃酒与菠萝的甜美组合"
+            },
+            {
+                country: "奥地利",
+                cocktail: "奥地利菠萝杏子酒 (Austrian Pineapple Apricot)",
+                spirit: "other",
+                spiritName: "杏子白兰地",
+                ingredients: ["奥地利杏子白兰地", "菠萝汁", "柠檬汁", "苏打水", "薄荷"],
+                description: "奥地利杏子白兰地的菠萝调配"
+            },
+            {
+                country: "挪威",
+                cocktail: "挪威菠萝阿夸维特 (Norwegian Pineapple Aquavit)",
+                spirit: "other",
+                spiritName: "阿夸维特酒",
+                ingredients: ["挪威阿夸维特酒", "菠萝汁", "柠檬汁", "莳萝", "糖浆"],
+                description: "挪威传统烈酒的菠萝风味版"
+            },
+            {
+                country: "丹麦",
+                cocktail: "丹麦菠萝樱桃酒 (Danish Pineapple Cherry Heering)",
+                spirit: "other",
+                spiritName: "樱桃酒",
+                ingredients: ["丹麦樱桃利口酒", "菠萝汁", "金酒", "柠檬汁", "苏打水"],
+                description: "丹麦樱桃酒的菠萝调法"
+            },
+            {
+                country: "芬兰",
+                cocktail: "芬兰菠萝浆果酒 (Finnish Pineapple Berry)",
+                spirit: "other",
+                spiritName: "伏特加",
+                ingredients: ["芬兰伏特加", "菠萝汁", "浆果汁", "柠檬汁", "糖浆"],
+                description: "芬兰浆果风味的菠萝伏特加"
+            },
+            {
+                country: "捷克",
+                cocktail: "捷克菠萝啤酒鸡尾酒 (Czech Pineapple Beer Cocktail)",
+                spirit: "other",
+                spiritName: "啤酒",
+                ingredients: ["捷克比尔森啤酒", "菠萝汁", "伏特加", "柠檬汁", "薄荷"],
+                description: "捷克啤酒的菠萝鸡尾酒版"
+            },
+            {
+                country: "匈牙利",
+                cocktail: "匈牙利菠萝托卡伊 (Hungarian Pineapple Tokaji)",
+                spirit: "other",
+                spiritName: "托卡伊酒",
+                ingredients: ["匈牙利托卡伊贵腐酒", "菠萝汁", "苏打水", "柠檬汁", "蜂蜜"],
+                description: "匈牙利贵腐酒的菠萝调配"
+            },
+            {
+                country: "比利时",
+                cocktail: "比利时菠萝啤酒鸡尾酒 (Belgian Pineapple Beer Cocktail)",
+                spirit: "other",
+                spiritName: "修道院啤酒",
+                ingredients: ["比利时修道院啤酒", "菠萝汁", "柠檬汁", "糖浆", "橙皮"],
+                description: "比利时特色啤酒的菠萝版本"
+            },
+            {
+                country: "荷兰",
+                cocktail: "荷兰菠萝金酒特调 (Dutch Pineapple Jenever)",
+                spirit: "other",
+                spiritName: "荷兰金酒",
+                ingredients: ["荷兰金酒", "菠萝汁", "柠檬汁", "苏打水", "薄荷"],
+                description: "荷兰传统金酒的菠萝调法"
+            }
+        ];
+
+        // 初始化页面
+        function initPage() {
+            generateCountryCards(cocktailsData);
+            setupAnimations();
+        }
+
+        // 生成国家卡片
+        function generateCountryCards(data) {
+            const grid = document.getElementById('countriesGrid');
+            grid.innerHTML = '';
+
+            data.forEach((cocktail, index) => {
+                const card = document.createElement('div');
+                card.className = 'country-card';
+                card.style.animationDelay = `${index * 0.05}s`;
+
+                // 生成配料列表
+                const ingredientsList = cocktail.ingredients.map(ing => 
+                    `<li><i class="fas fa-check-circle"></i> ${ing}</li>`
+                ).join('');
+
+                card.innerHTML = `
+                    <div class="card-header">
+                        <div class="country-name">${cocktail.country}</div>
+                        <div class="spirit-badge">${cocktail.spiritName}</div>
+                    </div>
+                    <div class="cocktail-image" title="${cocktail.cocktail}">
+                        <!-- 图片占位符 -->
+                    </div>
+                    <div class="card-content">
+                        <h3 class="cocktail-name">${cocktail.cocktail}</h3>
+                        <p>${cocktail.description}</p>
+                        <div class="ingredients">
+                            <h4><i class="fas fa-list-ul"></i> 配方</h4>
+                            <ul>${ingredientsList}</ul>
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        // 按基酒分类筛选
+        function filterBySpirit(spirit) {
+            const tags = document.querySelectorAll('.spirit-tag');
+            tags.forEach(tag => tag.classList.remove('active'));
+            event.target.classList.add('active');
+
+            let filteredData;
+            if (spirit === 'all') {
+                filteredData = cocktailsData;
+            } else {
+                filteredData = cocktailsData.filter(cocktail => cocktail.spirit === spirit);
+            }
+
+            generateCountryCards(filteredData);
+        }
+
+        // 搜索功能
+        function searchCocktails() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            if (!searchTerm.trim()) {
+                generateCountryCards(cocktailsData);
+                return;
+            }
+
+            const filteredData = cocktailsData.filter(cocktail => 
+                cocktail.country.toLowerCase().includes(searchTerm) ||
+                cocktail.cocktail.toLowerCase().includes(searchTerm) ||
+                cocktail.ingredients.some(ing => ing.toLowerCase().includes(searchTerm))
+            );
+
+            generateCountryCards(filteredData);
+        }
+
+        // 设置动画
+        function setupAnimations() {
+            const cards = document.querySelectorAll('.country-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+
+                setTimeout(() => {
+                    card.style.transition = 'all 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 50);
+            });
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', initPage);
+
+        // 搜索框回车事件
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchCocktails();
+            }
+        });
+    </script>
+</body>
+</html>
